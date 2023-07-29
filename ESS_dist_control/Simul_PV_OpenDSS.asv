@@ -1,0 +1,576 @@
+clear all
+close all
+clc
+
+%%Inicializa o OpenDSS
+%Cria o Objeto OpenDSS
+DSSobj = actxserver('OpenDSSEngine.DSS');
+
+%Testa se o OpenDSS inciou corretamente
+if ~DSSobj.Start(0)
+    disp ('Unable to start the OpenDSS Engine');
+    return
+end
+
+%Configura as interfaces do OpenDSS
+DSSText = DSSobj.Text;
+DSSCircuit = DSSobj.ActiveCircuit;
+DSSSolution = DSSCircuit.Solution;
+DSSMon = DSSCircuit.Monitors;
+DSSLines = DSSCircuit.Lines;
+
+
+%Chama o diretorio em os arquivos estão sendo executados
+Current_Directory = pwd; %pwd = Identify current folder
+OpenDSS_Directory = strcat('(',Current_Directory,'\Rede3\Master.dss)');
+DSSText.Command = strjoin({'Compile',OpenDSS_Directory});
+%DSSText.Command = 'New monitor.trafo_P element=Line._abcn_19490172-sec terminal=1 mode=1 ppolar=no'; %Gera o monitor do trafo
+%DSSText.Command = 'New monitor.carga_1 element=Load.0010594086 terminal=1 mode=1 ppolar=no'; %Gera mon Carga1
+DSSText.Command = 'calcvoltagebases';
+DSSText.Command = 'set mode=daily';
+DSSText.Command = 'set stepsize=15m';
+DSSText.Command = 'set number = 96';
+DSSText.Command = 'Solve';
+
+%%ORGANIZAÇÂO DAS FASES POR BARRA
+BusNames = DSSCircuit.AllBusNames(); %Gera o nome de todas as barras
+BusInfo = cell(length(BusNames),5); %Gera celula com as informações mais importantes das barras
+for i = 1:length(BusNames)
+    for j = 3:5
+        BusInfo{i,j} = 0; %Atribui zero a respectiva posição que a barra possui para fase (1 = possui fase, 0 = não possui fase)
+    end
+end
+
+for i = 1:length(BusNames)
+    DSSCircuit.SetActiveBus(BusNames{i});
+    BusInfo{i,1} = DSSCircuit.ActiveBus.Name();
+    BusInfo{i,2} = i;
+    aux = DSSCircuit.ActiveBus.Nodes(); %Apresenta as fases presentes na barra
+    for j = aux
+        if j == 1
+            BusInfo{i,3} = 1; %Se a barra possui a fase a, atri 1
+        elseif j == 2
+            BusInfo{i,4} = 1; %Se a barra possui a fase b, atri 1
+        elseif j == 3
+            BusInfo{i,5} = 1; %Se a barra possui a fase c, atri 1
+        end
+        %para os casos, caso o contrario, mantem o zero
+    end
+end
+
+%Codigo para separar as barras que possuem a determinada fase
+n_aux_a = 1;
+n_aux_b = 1;
+n_aux_c = 1;
+for i = 1:41
+    if  BusInfo{i,3} > 0 %Caso maior que zero, significa que a barra possui a fase
+        Bus_A(n_aux_a,1) = BusInfo{i,2}; %Salva a barra na matriz Barras com fase A-indica quais parras possuem a fase A
+        n_aux_a = n_aux_a + 1; %Incrementa numero de barras auxiliar-Quantidade de barras com a fase A
+    end
+    if  BusInfo{i,4} > 0
+        Bus_B(n_aux_b,1) = BusInfo{i,2};
+        n_aux_b = n_aux_b + 1;
+    end
+    if  BusInfo{i,5} > 0
+        Bus_C(n_aux_c,1) = BusInfo{i,2};
+        n_aux_c = n_aux_c + 1;
+    end
+end
+
+%%CALCULO DOS CONSUMOS, PVs E ORDENAÇÂO DAS CONEXOES
+%Determinação dos carregamentos
+LoadsNames = DSSCircuit.Loads.AllNames(); %Todos os nomes das cargas
+DSSCircuit.Loads.First();%Seta Primeira Barra
+Carregamento = cell(34,102); %Gera celula com as infos pertinentes ao carregamento das barras
+for i = 1:length(LoadsNames)
+    DSSCircuit.SetActiveElement(strcat('load.',LoadsNames{i})); %Ativa uma determinada carga
+    Carregamento{i,1} = LoadsNames{i}; %Atribui o nome da carga
+    Carregamento{i,2} = DSSCircuit.ActiveCktElement.BusNames(); %Nome da Barra que a carga ta alocada
+    Carregamento{i,3} = DSSCircuit.Loads.kW(); %Potencia base
+    %Determinação do LoadShape
+    if DSSCircuit.Loads.daily() == 'pico_9100-0'
+        Carregamento{i,4} = 0; %tipo de curva
+    elseif DSSCircuit.Loads.daily() == 'pico_9100-1'
+        Carregamento{i,4} = 1;
+    elseif DSSCircuit.Loads.daily() == 'pico_9100-2'
+        Carregamento{i,4} = 2;
+    elseif DSSCircuit.Loads.daily() == 'pico_9100-3'
+        Carregamento{i,4} = 3;
+    end
+    Carregamento{i,102} = DSSCircuit.ActiveCktElement.NumPhases(); %Determina o numero de fases do circuito
+    DSSCircuit.Loads.Next(); %Seta a proxima carga
+        
+end
+%Define a linha em que as cargas estão
+LinesNames = DSSCircuit.Lines.AllNames();
+DSSCircuit.Lines.First();
+for k=1:34
+for i=1:length(LinesNames)
+     DSSCircuit.SetActiveElement(strcat('Line.',LinesNames{i})); %Ativa uma determinada linha
+     aux= DSSCircuit.ActiveCktElement.BusNames();
+    
+         if strncmp(aux{2,1},Carregamento{k,2},12)==1
+             Carregamento{k,103}=LinesNames{i};
+         end
+     end   
+end
+
+load('var_cargas.mat')
+
+for i = 5:100
+    for j = 1:34
+        if Carregamento{j,4} == 0
+            Carregamento{j,i} = L0(i-4)*Carregamento{j,3};
+        elseif Carregamento{j,4} == 1
+            Carregamento{j,i} = L1(i-4)*Carregamento{j,3};
+        elseif Carregamento{j,4} == 2
+            Carregamento{j,i} = L2(i-4)*Carregamento{j,3};
+        elseif Carregamento{j,4} == 3
+            Carregamento{j,i} = L3(i-4)*Carregamento{j,3};
+        end
+    end
+end
+%PV
+%calculo do consumo total de cada carga
+for i = 1:34
+    aux = zeros(1,96);
+    for j = 1:96
+        aux(j) = Carregamento{i,j+4};
+    end
+    Carregamento{i,101} = trapz(aux);
+end
+
+Carregamento = sortrows(Carregamento,101,'descend'); %Coloca em ordem decrescente os consumos totais
+
+%capacidade de geração diária do PV
+irrad_dia=trapz(l_pv(:,1)*0.76^2);
+
+%potencia nominal de cada e ordem dos valores
+for i=1:34
+    p_pv(i)= (Carregamento{i,101}/(irrad_dia));
+end
+pd=sort(p_pv,'descend');
+
+%potencial nominal do modulo
+mod=0.32;
+for i=1:34
+    pd_pv(i)=ceil(pd(i)/mod)*mod;
+end
+pc_pv=sort(pd_pv);
+
+
+
+%ESS
+mod_bat=3.3; %capacidade nominal X profundidade do ESS base
+p_bat=3;
+for i=1:34
+    for k=1:96
+        if k==1||k==96
+            eval(strcat('lb(i,k)=L',num2str(Carregamento{i,4}),'(k)*Carregamento{i,3}-l_pv(k,4)*pd_pv(i);'));
+            %eval(strcat('lb(i,k)=L',num2str(Carregamento{i,4}),'(1)-l_pv(1,3);'));
+        else
+            eval(strcat('lb(i,k)=L',num2str(Carregamento{i,4}),'(k)*Carregamento{i,3}-l_pv(k,4)*pd_pv(i);'));
+            %eval(strcat('lb(i,k)=L',num2str(Carregamento{i,4}),'(k*4)-l_pv(k,3);'));
+        end
+    end
+%     p_dbess(i)=min(lb(i,:))*-1;
+%     
+%     if Carregamento{i,101}>40
+%         cap_bess(i)=9.9;
+%         p_ess(i)=5;
+%     elseif Carregamento{i,101}<40&&Carregamento{i,101}>25
+%         cap_bess(i)=6.5;
+%         p_ess(i)=4.2;
+%      elseif Carregamento{i,101}<25
+%         cap_bess(i)=3.3;
+%         p_ess(i)=3;
+%     end
+    
+    
+    for k=1:96
+        auxx(i,k)=Carregamento{i,k+4};
+    end
+    e_auto(i)=((trapz(l_pv(:,1)*0.76^2*p_pv(i)))/4)-(trapz(auxx(i,32:64)))/4;
+    cap_bess(i)=ceil(e_auto(i)/mod_bat)*mod_bat;
+    p_ess(i)=ceil(e_auto(i)/mod_bat)*p_bat;
+   
+    lb(i,:)=lb(i,:)/(p_ess(i));
+   
+%     for k=1:96
+%         if lb(i,k)>0
+%             lb(i,k)=lb(i,k)/2;
+%         end
+%     end
+    
+%     %potencias de despacho 
+%     des_p(i)=(Carregamento{i,3}*0.5)/p_ess(i); 
+%     des_fp(i)=(cap_bess(i)*0.877-(3*des_p(i)))/(13*p_ess(i));
+%     lb(i,72:84)=des_p(i);
+%     lb(i,84:96)=des_fp(i);
+end
+
+
+%% Simulação Com PV e ESS
+f=0;%contador para pegar tensão max e min
+Simuls =[0 34]; %Casos de penetração ( 3=20%, 6=40%, 10=60%, 20=100%, 27=120%, 34=140%)
+for simul = Simuls
+    bat_dist=2;       %flag de ativacao das baterias distribuidas (1=ativo)
+    
+    %Adicionando os PVs
+    OpenDSS_Directory = strcat('(',Current_Directory,'\Rede3\Master.dss)');
+    DSSText.Command = strjoin({'Compile',OpenDSS_Directory});
+    n_pvs =simul;
+    for i = 1:n_pvs
+        X = PV_ADD(string(Carregamento{i,102}),i,string(Carregamento{i,2}),pd_pv(i)); %Insere os PVs
+        DSSText.Command = X;
+    end
+    
+    %inserção dos bess junto aos PVs para o caso distribuido
+    if bat_dist==1
+        for i = 1:n_pvs
+            X = dispacth_ADD(i,lb(i,:)); %Insere os perfis de despacho
+            DSSText.Command = X;
+            Y = BESS_ADD(string(Carregamento{i,102}),i,string(Carregamento{i,2}),(p_ess(i)),cap_bess(i));
+            DSSText.Command = Y;
+            %DSSText.Command = "~ DischargeTrigger=0.2  ChargeTrigger=0";
+        end
+    end
+    
+    %inserção dos bess junto aos PVs para o caso distribuido
+    if bat_dist==2
+        for i = 1:n_pvs
+            Y = BESS_ADD_SC(string(Carregamento{i,102}),i,string(Carregamento{i,2}),(p_ess(i)),cap_bess(i));
+            DSSText.Command = Y;
+            
+            
+         
+        end
+        X = strcat('New StorageController.SC element=Line._abcn_19490172-sec terminal=1 MonPhase=AVG modedis=peakShave kwtarget=4 modecharge=peakShaveLow kwtargetLow=0 eventlog=yes %reserve=12.1'); %Insere os perfis de despacho
+            DSSText.Command = X;
+    end
+    
+    
+    %seta monitor e bases para a simulação
+    DSSText.Command = 'New monitor.trafo_P element=Line._abcn_19490172-sec terminal=1 mode=1 ppolar=no';
+   
+    for i=1:simul
+       
+        DSSText.Command = strcat('New monitor.C',num2str(i),' element=Load.',Carregamento{i,1},' terminal=1 mode=1 ppolar=no'); %Gera mon nas cargas 
+        DSSText.Command = strcat('New monitor.busc_',num2str(i),' element=Line.',Carregamento{i,103},' terminal=2 mode=1 ppolar=no'); %Gera mon nos barramentos
+
+        if simul ~=0
+            DSSText.Command = strcat('New monitor.pv_',num2str(i),' element=PVSystem.PV',num2str(i),' terminal=1 mode=1 ppolar=no'); %Gera mon pv3
+            if bat_dist == 1
+                DSSText.Command = strcat('New monitor.bess_',num2str(i),' element=Storage.BESS',num2str(i),' terminal=1 mode=1 ppolar=no'); %Gera mon pv3
+                DSSText.Command = strcat('New Monitor.bess_',num2str(i),'_soc element=Storage.BESS',num2str(i),' terminal=1 mode=3');
+            end
+        end
+    end
+    
+    DSSText.Command = 'Set voltagebases=[11.4, 0.22, 0.127]';
+    DSSText.Command = 'CalcVoltageBases';
+    DSSText.Command = 'calcv';
+    DSSText.Command = 'set mode=daily';
+    DSSText.Command = 'set stepsize=15m';
+    DSSText.Command = 'set number = 1';
+    
+    %Gera a matriz zeros com numero de barras pelo numero de intervalos de tempo
+    eval(strcat('Tesoes_A_',num2str(simul),'=','zeros(length(Bus_A),96);'))
+    eval(strcat('Tesoes_B_',num2str(simul),'=','zeros(length(Bus_B),96);'))
+    eval(strcat('Tesoes_C_',num2str(simul),'=','zeros(length(Bus_C),96);'))
+    
+    %inicia as simulações de 15 em 15 minutos
+    for i = 1:96
+        DSSText.Command = 'Solve';
+        A_Aux = DSSCircuit.AllNodeVmagPUByPhase(1); %Pega todas as tensões para fase a no intervalo i(simulação a cada 15 min)
+        B_Aux = DSSCircuit.AllNodeVmagPUByPhase(2);  %Pega todas as tensões para fase b
+        C_Aux = DSSCircuit.AllNodeVmagPUByPhase(3);  %Pega todas as tensões para fase c
+        
+        %Distribui por barra as tensões para cada fase
+        for j = 1:33
+            eval(strcat('Tesoes_A_',num2str(simul),'(j,i) = A_Aux(j);'));
+        end
+        for j = 1:37
+            eval(strcat('Tesoes_B_',num2str(simul),'(j,i) = B_Aux(j);'));
+        end
+        for j = 1:39
+            eval(strcat('Tesoes_C_',num2str(simul),'(j,i) = C_Aux(j);'));
+        end
+    end
+    
+    if simul ~= 0
+        cons=33; %define qual consumidor vai ter os gráficos plotados
+        name = strcat('pv_',num2str(cons));
+        DSSMon.name = name;
+        Pot_PV2 = zeros(length(DSSMon.Channel(1)),3);
+        Pot_PV2(:,1) = DSSMon.Channel(1); %kW Fase A
+        Pot_PV2(:,2) = DSSMon.Channel(3); %kW Fase B
+        Pot_PV2(:,3) = DSSMon.Channel(5);%kW Fase C
+        P_PV2 = Pot_PV2(:,1) + Pot_PV2(:,2) + Pot_PV2(:,3);
+        
+        name = strcat('busc_',num2str(cons));
+        DSSMon.name = name;
+        Pot_Carga2 = zeros(length(DSSMon.Channel(1)),6);
+        Pot_Carga2(:,1) = DSSMon.Channel(1); %kW Fase A
+        Pot_Carga2(:,2) = DSSMon.Channel(3); %kW Fase B
+        Pot_Carga2(:,3) = DSSMon.Channel(5); %kW Fase C
+        Pot_Carga2(:,4) = DSSMon.Channel(2);%kva Fase A
+        Pot_Carga2(:,5) = DSSMon.Channel(4);%kva Fase B
+        Pot_Carga2(:,6) = DSSMon.Channel(6);%kva Fase C
+        
+        Pbc2t = Pot_Carga2(:,1) + Pot_Carga2(:,2) + Pot_Carga2(:,3);
+        Qbc2t = Pot_Carga2(:,4) + Pot_Carga2(:,5) + Pot_Carga2(:,6);
+        
+        name = strcat('C',num2str(cons));
+        DSSMon.name = name;
+        Pot_C2=zeros(length(DSSMon.Channel(1)),6);
+        Pot_C2(:,1) = DSSMon.Channel(1); %kW Fase A
+        Pot_C2(:,2) = DSSMon.Channel(3); %kW Fase B
+        Pot_C2(:,3) = DSSMon.Channel(5); %kW Fase C
+        
+        P_C2(:,1)=Pot_C2(:,1)+Pot_C2(:,2)+Pot_C2(:,3);
+        
+        if bat_dist == 1
+            name = strcat('bess_',num2str(cons));
+            DSSMon.name = name;
+            Pot_BESS2=zeros(length(DSSMon.Channel(1)),3);
+            Pot_BESS2(:,1) = DSSMon.Channel(1); %kW Fase A
+            Pot_BESS2(:,2) = DSSMon.Channel(3); %kW Fase B
+            Pot_BESS2(:,3) = DSSMon.Channel(5);%kW Fase C
+            P_BESS2 = Pot_BESS2(:,1)+Pot_BESS2(:,2)+Pot_BESS2(:,3);
+            
+            name = strcat('bess_',num2str(cons),'_soc');
+            DSSMon.name = name;
+            Pot_BESS2_soc = zeros(length(DSSMon.Channel(1)),1);
+            P_BESS2_soc(:,1) = DSSMon.Channel(1);
+        end
+    end
+    
+    name = 'trafo_P';
+    DSSMon.name = name;
+    %Gera o a Matriz Potência no Trafo para simulacao atual
+    eval(strcat('Pot_Trafo_',num2str(simul),'=','zeros(length(DSSMon.Channel(1)),6);'));
+    eval(strcat('Pot_Trafo_',num2str(simul),'(:,1) = DSSMon.Channel(1);')); %kW Fase A
+    eval(strcat('Pot_Trafo_',num2str(simul),'(:,2) = DSSMon.Channel(3);')); %kW Fase B
+    eval(strcat('Pot_Trafo_',num2str(simul),'(:,3) = DSSMon.Channel(5);')); %kW Fase C
+    eval(strcat('Pot_Trafo_',num2str(simul),'(:,4) = DSSMon.Channel(2);')); %kVAr Fase A
+    eval(strcat('Pot_Trafo_',num2str(simul),'(:,5) = DSSMon.Channel(4);')); %kVAr Fase B
+    eval(strcat('Pot_Trafo_',num2str(simul),'(:,6) = DSSMon.Channel(6);')); %kVAr Fase C
+        
+    
+    %%PLOTAGEM DOS GRAFICOS
+    %Tensoes
+    limit_min = 0.95;
+    limit_max = 1.1;
+    xtickv=[8:8:96];
+    x = 0.95:0.02:1.1;
+    figure('Name',strcat('Simulação ',num2str(simul)))
+    pcolor(eval(strcat('Tesoes_A_',num2str(simul))))
+    if simul == 0
+        title('Simulação 0% de Penetração: Fase A')
+    end
+    if simul == 3
+        title('Simulação 10% de Penetração: Fase A')
+    end
+    if simul == 6
+        title('Simulação 19% de Penetração: Fase A')
+    end
+    if simul == 10
+        title('Simulação 29% de Penetração: Fase A')
+    end
+    if simul == 20
+        title('Simulação 48% de Penetração: Fase A')
+    end
+    if simul == 27
+        title('Simulação 58% de Penetração: Fase A')
+    end
+    if simul == 34
+        title('Simulação 65% de Penetração: Fase A')
+    end
+    colormap(hot)
+    xlabel('Tempo(Horas)');
+    ylabel('Barramento');
+    x;
+    caxis([limit_min limit_max])
+    cbar = colorbar('Ticks',x);
+    set(gca,'FontWeight','bold','FontSize',25,'XTick',xtickv,'XTickLabel',2:2:24,'YTick',1:1:33,'YTickLabel',Bus_A); %'FontSize',10,'YTick',1:1:33,'FontSize',25,
+    yax=get(gca,'YAxis');
+    set(yax,'FontSize',10);
+    yl=get(gca,'ylabel');
+    set(yl,'FontSize',25);
+    figure('Name',strcat('Simulação ',num2str(simul)))
+    pcolor(eval(strcat('Tesoes_B_',num2str(simul))))
+    if simul == 0
+        title('Simulação 0% de Penetração: Fase B')
+    end
+    if simul == 3
+        title('Simulação 10% de Penetração: Fase B')
+    end
+    if simul == 6
+        title('Simulação 19% de Penetração: Fase B')
+    end
+    if simul == 10
+        title('Simulação 29% de Penetração: Fase B')
+    end
+    if simul == 20
+        title('Simulação 48% de Penetração: Fase B')
+    end
+    if simul == 27
+        title('Simulação 58% de Penetração: Fase B')
+    end
+    if simul == 34
+        title('Simulação 65% de Penetração: Fase B')
+    end
+    colormap(hot)
+    xlabel('Tempo(Horas)');
+    ylabel('Barramento');
+    x;
+    caxis([limit_min limit_max])
+    cbar = colorbar('Ticks',x);
+    set(gca,'FontWeight','bold','FontSize',25,'XTick',xtickv,'XTickLabel',2:2:24,'YTick',1:1:37,'YTickLabel',Bus_B);
+    yax=get(gca,'YAxis');
+    set(yax,'FontSize',10);
+    yl=get(gca,'ylabel');
+    set(yl,'FontSize',25);
+    figure('Name',strcat('Simulação ',num2str(simul)))
+    pcolor(eval(strcat('Tesoes_C_',num2str(simul))))
+    if simul == 0
+        title('Simulação 0% de Penetração: Fase C')
+    end
+    if simul == 3
+        title('Simulação 10% de Penetração: Fase C')
+    end
+    if simul == 6
+        title('Simulação 19% de Penetração: Fase C')
+    end
+    if simul == 10
+        title('Simulação 29% de Penetração: Fase C')
+    end
+    if simul == 20
+        title('Simulação 48% de Penetração: Fase C')
+    end
+    if simul == 27
+        title('Simulação 58% de Penetração: Fase C')
+    end
+    if simul == 34
+        title('Simulação 65% de Penetração: Fase C')
+    end
+    colormap(hot)
+    xlabel('Tempo(Horas)');
+    ylabel('Barramento');
+    x;
+    caxis([limit_min limit_max])
+    cbar = colorbar('Ticks',x);
+    set(gca,'FontWeight','bold','FontSize',25,'XTick',xtickv,'XTickLabel',2:2:24,'YTick',1:1:39,'YTickLabel',Bus_C);
+    yax=get(gca,'YAxis');
+    set(yax,'FontSize',10);
+    yl=get(gca,'ylabel');
+    set(yl,'FontSize',25);
+    
+    %Potencia no trafo
+    figure('Name',strcat('Simulação ',num2str(simul)))
+    plot(eval(strcat('Pot_Trafo_',num2str(simul),'(:,1:3)')))
+    if simul == 0
+        title('Potência de Demanda com 0% de Penetração')
+    end
+    if simul == 3
+        title('Potência de Demanda com 10% de Penetração')
+    end
+    if simul == 6
+        title('Potência de Demanda com 19% de Penetração')
+    end
+    if simul == 10
+        title('Potência de Demanda com 29% de Penetração')
+    end
+    if simul == 20
+        title('Potência de Demanda com 48% de Penetração')
+    end
+    if simul == 27
+        title('Potência de Demanda com 58% de Penetração')
+    end
+    if simul == 34
+        title('Potência de Demanda com 65% de Penetração')
+    end
+    grid on,
+    xlabel('Tempo(Horas)');
+    ylabel('Potência (kVA)');
+    legend('Pa','Pb','Pc')%,'Qa','Qb','Qc')
+    set(gca,'FontWeight','bold','FontSize',25,'XTick',xtickv,'XTickLabel',2:2:24);
+    
+    f=f+1;
+    V_max(f,1)= eval(strcat('max(Tesoes_A_',num2str(simul),'(:))'));
+    V_min(f,1)=eval(strcat('min(Tesoes_A_',num2str(simul),'(:))'));
+    V_max(f,2)= eval(strcat('max(Tesoes_B_',num2str(simul),'(:))'));
+    V_min(f,2)=eval(strcat('min(Tesoes_B_',num2str(simul),'(:))'));
+    V_max(f,3)= eval(strcat('max(Tesoes_C_',num2str(simul),'(:))'));
+    V_min(f,3)=eval(strcat('min(Tesoes_C_',num2str(simul),'(:))'));
+    
+end
+
+
+figure('Name',strcat('Simulação Potências consumidor ',num2str(cons)))
+plot(Pbc2t*(-1));
+hold on;
+plot(Qbc2t*-1);
+hold on;
+plot(P_PV2);
+hold on;
+plot(P_C2);
+hold on;
+if bat_dist==1
+    plot(P_BESS2*-1);
+    hold on;
+end
+grid on;
+title(strcat('Potência no PCC - Carga ',num2str(cons)))
+xlabel('Tempo(Horas)');
+ylabel('Potência (kVA)');
+legend('Pmedida','Qmedida','Geração PV','P Consumo','P ESS');
+set(gca,'FontWeight','bold','FontSize',25,'XTick',xtickv,'XTickLabel',2:2:24);
+hold off;
+
+if bat_dist==1
+    figure('Name',strcat('Simulação ESS ',num2str(cons)))
+    plot(P_BESS2_soc);
+    grid on;
+    title(strcat('Estado de carga do ESS ',num2str(cons)))
+    xlabel('Tempo(Horas)');
+    ylabel('Carga (kWh)');
+    set(gca,'FontWeight','bold','FontSize',25,'XTick',xtickv,'XTickLabel',2:2:24);
+end
+
+
+figure('Name','Curva de despacho')
+plot(L3(:)*Carregamento{2,3})
+hold on 
+plot (l_pv(:,4)*pd_pv(2))
+hold on 
+plot(lb(2,:)*p_ess(2))
+grid on;
+title('Perfis de carga absolutos no Prosumidor 2')
+xlabel('Tempo(Horas)');
+ylabel('Potência (kW)');
+legend('Consumo','Geração PV','ESS');
+set(gca,'FontWeight','bold','FontSize',25,'XTick',xtickv,'XTickLabel',2:2:24);
+
+figure('Name','Curva de despacho pu')
+plot(lb(2,:))
+grid on;
+title('Perfis de carga absolutos no Prosumidor 2')
+xlabel('Tempo(Horas)');
+ylabel('Potência (p.u)');
+set(gca,'FontWeight','bold','FontSize',25,'XTick',xtickv,'XTickLabel',2:2:24);
+
+
+% subplot(2,1,2)
+% plot(L3(:))
+% hold on 
+% plot (l_pv(:,4))
+% hold on 
+% plot(lb(2,:))
+% grid on;
+% title('Perfis de carga proporcionais no Prosumidor 2')
+% xlabel('Tempo(Horas)');
+% ylabel('Potência (pu)');
+% legend('Consumo (P_c)','Geração PV(P_{pv})','ESS(P_{ESS})');
+% set(gca,'FontWeight','bold','FontSize',25,'XTick',xtickv,'XTickLabel',2:2:24);

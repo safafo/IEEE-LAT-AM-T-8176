@@ -1,0 +1,3 @@
+New PVSystem.PV8 phases=2 bus1=bus_19489826.1.3 kV=0.22 kVA=1.73 irrad=1 Pmpp=1.73 temperature=25 PF=1 effcurve=Myeff P-TCurve=MyPvsT Daily=MyIrrad TDaily=MyTemp 
+New PVSystem.PV10 phases=2 bus1=bus_19489824.1.2 kV=0.22 kVA=0.53 irrad=1 Pmpp=0.53 temperature=25 PF=1 effcurve=Myeff P-TCurve=MyPvsT Daily=MyIrrad TDaily=MyTemp 
+New PVSystem.PV4 phases=2 bus1=bus_19489636.1.2 kV=0.22 kVA=2.46 irrad=1 Pmpp=2.46 temperature=25 PF=1 effcurve=Myeff P-TCurve=MyPvsT Daily=MyIrrad TDaily=MyTemp 

@@ -1,0 +1,59 @@
+! Created by miniodss on 2015-12-14T17:50
+Clear
+New Circuit.bge02 Bus1=bus_34460660.1.2.3 basekV=11.4 pu=1.05 Mvasc3=152.631781265 Mvasc1=155.593588146 x1r1=55.64 x0r0=81.87
+
+!Common files
+Redirect WireData.dss
+Redirect LineGeometry.dss
+Redirect LoadShape.dss
+Redirect Line.dss
+!Redirect Reactor.dss
+Redirect Transformer.dss
+Redirect Load.dss
+Redirect PVshapes.dss
+Redirect Irrad.dss
+Redirect PVsCase1_BT.dss
+
+
+
+MakebusList
+!Export Y
+
+Set voltagebases=[11.4, 0.22, 0.127]
+calcvoltagebases
+
+Buscoords BusCoords.dss
+
+
+!New EnergyMeter.sub element=Line._abcn_19490172-sec terminal=1
+!New EnergyMeter.lin element=Line._bn_19489724-ramal terminal=2
+
+New monitor.trafo_P element=Line._abcn_19490172-sec terminal=1 mode=1 ppolar=no
+New monitor.trafo_V element=Line._abcn_19490172-sec terminal=1 mode=0 
+New monitor.carga_P element=Line._abn_19489824-ramal terminal=1 mode=1 ppolar=no
+New monitor.carga_V element=Line._abn_19489824-ramal terminal=1 mode=0 
+New monitor.pv_P element=PVSystem.PV4 terminal=1 mode=1 ppolar=no
+New monitor.pv_V element=PVSystem.PV4 terminal=1 mode=0
+
+solve
+
+set mode=harmonicst
+set stepsize=15m
+set number=96
+solve 
+
+/*Export monitors trafo_p
+Plot monitor object= trafo_p channels=(1 3 5 )
+Export monitors trafo_v
+Plot monitor object= trafo_v channels=(1 3 5 ) bases=[127 127 127]*/
+
+
+
+
+
+!show power kva element
+!show voltages ln nodes
+!show currents element
+
+
+

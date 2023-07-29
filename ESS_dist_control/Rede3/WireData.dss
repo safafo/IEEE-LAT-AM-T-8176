@@ -1,0 +1,92 @@
+! Created by miniodss on 2015-12-14T17:47
+New WireData.CA-1/0AWG-15kV Rdc=0.5387 Runits=km GMRac=0.38376 GMRunits=cm Radunits=cm NormAmps=200.0 Diam=0.936
+New WireData.CA-2AWG Rdc=0.8595 Runits=km GMRac=0.30381 GMRunits=cm Radunits=cm NormAmps=152.0 Diam=0.741
+New WireData.CAA-4AWG Rdc=1.3545 Runits=km GMRac=0.26076 GMRunits=cm Radunits=cm NormAmps=130.0 Diam=0.636
+New WireData.CA-477MCM-15kV Rdc=0.1196 Runits=km GMRac=0.82656 GMRunits=cm Radunits=cm NormAmps=540.0 Diam=2.016
+New WireData.CAA-2AWG Rdc=0.854 Runits=km GMRac=0.32841 GMRunits=cm Radunits=cm NormAmps=175.0 Diam=0.801
+New WireData.CAA-6AWG Rdc=2.1569 Runits=km GMRac=0.20664 GMRunits=cm Radunits=cm NormAmps=95.0 Diam=0.504
+New WireData.CA-70mm2-PR-XLPE-15kV Rdc=0.443 Runits=km GMRac=0.39975 GMRunits=cm Radunits=cm NormAmps=312.0 Diam=0.975
+New WireData.CA-4AWG Rdc=1.365 Runits=km GMRac=0.24108 GMRunits=cm Radunits=cm NormAmps=115.0 Diam=0.588
+New WireData.CA-6AWG Rdc=2.1826 Runits=km GMRac=0.19065 GMRunits=cm Radunits=cm NormAmps=103.0 Diam=0.465
+New WireData.Cu-35mm2-XLPE-15kV Rdc=0.524 Runits=km GMRac=0.2952 GMRunits=cm Radunits=cm NormAmps=200.0 Diam=0.72
+New WireData.CA-35mm2-XLPE-15kV Rdc=0.868 Runits=km GMRac=0.28577 GMRunits=cm Radunits=cm NormAmps=187.0 Diam=0.697
+New WireData.Cu-50mm2-XLPE-15kV Rdc=0.387 Runits=km GMRac=0.3403 GMRunits=cm Radunits=cm NormAmps=240.0 Diam=0.83
+New WireData.Cu-1AWG Rdc=0.3991176471 Runits=km GMRac=0.34194 GMRunits=cm Radunits=cm Diam=0.834
+New WireData.Cu-1/0AWG Rdc=0.3168823529 Runits=km GMRac=0.38376 GMRunits=cm Radunits=cm Diam=0.936
+New WireData.CA-1/0AWG-XLPE-15kV Rdc=0.5387 Runits=km GMRac=0.38376 GMRunits=cm Radunits=cm NormAmps=200.0 Diam=0.936
+New WireData.CAA-1/0AWG Rdc=0.536 Runits=km GMRac=0.41451 GMRunits=cm Radunits=cm NormAmps=230.0 Diam=1.011
+New WireData.Cu-2/0AWG Rdc=0.2518235294 Runits=km GMRac=0.4305 GMRunits=cm Radunits=cm Diam=1.05
+New WireData.CA-2/0AWG Rdc=0.4281 Runits=km GMRac=0.4305 GMRunits=cm Radunits=cm NormAmps=235.0 Diam=1.05
+New WireData.CAA-2/0AWG Rdc=0.4261 Runits=km GMRac=0.46494 GMRunits=cm Radunits=cm NormAmps=265.0 Diam=1.134
+New WireData.Cu-4/0AWG Rdc=0.1578823529 Runits=km GMRac=0.54366 GMRunits=cm Radunits=cm Diam=1.326
+New WireData.CA-4/0AWG-15kV Rdc=0.2684 Runits=km GMRac=0.54366 GMRunits=cm Radunits=cm NormAmps=375.0 Diam=1.326
+New WireData.CAA-4/0AWG Rdc=0.2676 Runits=km GMRac=0.58671 GMRunits=cm Radunits=cm NormAmps=350.0 Diam=1.431
+New WireData.Cu-2AWG Rdc=0.5055882353 Runits=km GMRac=0.30381 GMRunits=cm Radunits=cm NormAmps=130.0 Diam=0.741
+New WireData.Cu-4AWG Rdc=0.8029411765 Runits=km GMRac=0.24108 GMRunits=cm Radunits=cm Diam=0.588
+New WireData.CA-185mm2-PR-XLPE-15kV Rdc=0.164 Runits=km GMRac=0.66215 GMRunits=cm Radunits=cm NormAmps=581.0 Diam=1.615
+New WireData.Cu-6AWG Rdc=1.2838823529 Runits=km GMRac=0.19065 GMRunits=cm Radunits=cm NormAmps=75.0 Diam=0.465
+New WireData.CA-336.4MCM Rdc=0.1691 Runits=km GMRac=0.6929 GMRunits=cm Radunits=cm NormAmps=495.0 Diam=1.69
+New WireData.CAA-336.4MCM Rdc=0.1694 Runits=km GMRac=0.71135 GMRunits=cm Radunits=cm NormAmps=500.0 Diam=1.735
+New WireData.Cu-8AWG Rdc=3.08 Runits=km GMRac=0.133824 GMRunits=cm Radunits=cm NormAmps=24.0 Diam=0.3264
+New WireData.CA-477MCM-XLPE-15kV Rdc=0.1196 Runits=km GMRac=0.82656 GMRunits=cm Radunits=cm NormAmps=540.0 Diam=2.016
+New WireData.CAA-477MCM Rdc=0.119 Runits=km GMRac=0.84788 GMRunits=cm Radunits=cm NormAmps=615.0 Diam=2.068
+New WireData.CA-240mm2-XLPE-15kV Rdc=0.125 Runits=km GMRac=0.75235 GMRunits=cm Radunits=cm NormAmps=625.0 Diam=1.835
+New WireData.CA-95mm2-PR-XLPE-15kV Rdc=0.32 Runits=km GMRac=0.4715 GMRunits=cm Radunits=cm NormAmps=382.0 Diam=1.15
+New WireData.CA-300mm2-PR-XLPE-15kV Rdc=0.1 Runits=km GMRac=0.8528 GMRunits=cm Radunits=cm NormAmps=797.0 Diam=2.08
+New WireData.Cu-70mm2-XLPE-15kV Rdc=0.268 Runits=km GMRac=0.41 GMRunits=cm Radunits=cm NormAmps=300.0 Diam=1.0
+New WireData.CA-70mm2-XLPE-15kV Rdc=0.443 Runits=km GMRac=0.39975 GMRunits=cm Radunits=cm NormAmps=282.0 Diam=0.975
+New WireData.Cu-120mm2-XLPE-15kV Rdc=0.153 Runits=km GMRac=0.5412 GMRunits=cm Radunits=cm NormAmps=425.0 Diam=1.32
+New WireData.Cu-185mm2-XLPE-15kV Rdc=0.0991 Runits=km GMRac=0.738 GMRunits=cm Radunits=cm NormAmps=560.0 Diam=1.8
+New WireData.Cu-240mm2-XLPE-15kV Rdc=0.0754 Runits=km GMRac=0.8446 GMRunits=cm Radunits=cm NormAmps=670.0 Diam=2.06
+New WireData.Cu-500mm2-XLPE-15kV Rdc=0.0366 Runits=km GMRac=1.1972 GMRunits=cm Radunits=cm NormAmps=1045.0 Diam=2.92
+New WireData.Cu-800mm2-XLPE-15kV Rdc=0.021 Runits=km GMRac=1.4924 GMRunits=cm Radunits=cm NormAmps=1400.0 Diam=3.64
+New WireData.Cu-500MCM-XLPE-15kV Rdc=0.067 Runits=km GMRac=0.8446 GMRunits=cm Radunits=cm NormAmps=470.0 Diam=2.06
+New WireData.CA-10mm2-XLPE-1kV Rdc=3.08 Runits=km GMRac=0.16605 GMRunits=cm Radunits=cm NormAmps=44.0 Diam=0.405
+New WireData.CA-1/0AWG-1kV Rdc=0.5387 Runits=km GMRac=0.38376 GMRunits=cm Radunits=cm NormAmps=125.0 Diam=0.936
+New WireData.CA-1/0AWG-XLPE-1kV Rdc=0.5387 Runits=km GMRac=0.38376 GMRunits=cm Radunits=cm NormAmps=125.0 Diam=0.936
+New WireData.CA-2AWG-1kV Rdc=0.8595 Runits=km GMRac=0.30381 GMRunits=cm Radunits=cm NormAmps=95.0 Diam=0.741
+New WireData.CA-50mm2-XLPE-1kV Rdc=0.641 Runits=km GMRac=0.33251 GMRunits=cm Radunits=cm NormAmps=122.0 Diam=0.811
+New WireData.CA-70mm2-XLPE-1kV Rdc=0.443 Runits=km GMRac=0.39975 GMRunits=cm Radunits=cm NormAmps=157.0 Diam=0.975
+New WireData.Cu-6AWG-1kV Rdc=1.28 Runits=km GMRac=0.19065 GMRunits=cm Radunits=cm NormAmps=70.0 Diam=0.465
+New WireData.CA-35mm2-XLPE-1kV Rdc=0.868 Runits=km GMRac=0.28577 GMRunits=cm Radunits=cm NormAmps=100.0 Diam=0.697
+New WireData.CA-10mm2-1kV Rdc=3.08 Runits=km GMRac=0.16605 GMRunits=cm Radunits=cm NormAmps=44.0 Diam=0.405
+New WireData.Cu-10mm2-XLPE-1kV Rdc=1.83 Runits=km GMRac=0.1599 GMRunits=cm Radunits=cm NormAmps=55.0 Diam=0.39
+New WireData.Cu-10mm2-1kV Rdc=1.83 Runits=km GMRac=0.1599 GMRunits=cm Radunits=cm NormAmps=55.0 Diam=0.39
+New WireData.CA-50mm2-1kV Rdc=0.641 Runits=km GMRac=0.33251 GMRunits=cm Radunits=cm NormAmps=122.0 Diam=0.811
+New WireData.CA-70mm2-1kV Rdc=0.443 Runits=km GMRac=0.39975 GMRunits=cm Radunits=cm NormAmps=157.0 Diam=0.975
+New WireData.CA-2/0AWG-1kV Rdc=0.4281 Runits=km GMRac=0.4305 GMRunits=cm Radunits=cm NormAmps=151.0 Diam=1.05
+New WireData.CA-4/0AWG-1kV Rdc=0.2684 Runits=km GMRac=0.54366 GMRunits=cm Radunits=cm NormAmps=210.0 Diam=1.326
+New WireData.CA-4AWG-1kV Rdc=1.365 Runits=km GMRac=0.24108 GMRunits=cm Radunits=cm Diam=0.588
+New WireData.CA-477MCM Rdc=0.1196 Runits=km GMRac=0.82656 GMRunits=cm Radunits=cm NormAmps=615.0 Diam=2.016
+New WireData.CA-4/0AWG-XLPE-1kV Rdc=0.2684 Runits=km GMRac=0.54366 GMRunits=cm Radunits=cm NormAmps=210.0 Diam=1.326
+New WireData.CA-35mm2-1kV Rdc=0.868 Runits=km GMRac=0.28577 GMRunits=cm Radunits=cm NormAmps=100.0 Diam=0.697
+New WireData.CA-16mm2-XLPE-1kV Rdc=1.91 Runits=km GMRac=0.1927 GMRunits=cm Radunits=cm NormAmps=59.0 Diam=0.47
+New WireData.CA-16mm2-1kV Rdc=1.91 Runits=km GMRac=0.1927 GMRunits=cm Radunits=cm NormAmps=59.0 Diam=0.47
+New WireData.CA-25mm2-XLPE-1kV Rdc=1.2 Runits=km GMRac=0.24272 GMRunits=cm Radunits=cm NormAmps=80.0 Diam=0.592
+New WireData.CA-25mm2-1kV Rdc=1.2 Runits=km GMRac=0.24272 GMRunits=cm Radunits=cm NormAmps=80.0 Diam=0.592
+New WireData.CA-120mm2-XLPE-1kV Rdc=0.253 Runits=km GMRac=0.5289 GMRunits=cm Radunits=cm NormAmps=229.0 Diam=1.29
+New WireData.CA-120mm2-1kV Rdc=0.253 Runits=km GMRac=0.5289 GMRunits=cm Radunits=cm NormAmps=229.0 Diam=1.29
+New WireData.Cu-50mm2-XLPE-1kV Rdc=0.387 Runits=km GMRac=0.3403 GMRunits=cm Radunits=cm NormAmps=165.0 Diam=0.83
+New WireData.Cu-50mm2-1kV Rdc=0.387 Runits=km GMRac=0.3403 GMRunits=cm Radunits=cm NormAmps=165.0 Diam=0.83
+New WireData.Cu-120mm2-XLPE-1kV Rdc=0.153 Runits=km GMRac=0.5412 GMRunits=cm Radunits=cm NormAmps=296.0 Diam=1.32
+New WireData.Cu-120mm2-1kV Rdc=0.153 Runits=km GMRac=0.5412 GMRunits=cm Radunits=cm NormAmps=296.0 Diam=1.32
+New WireData.Cu-35mm2-XLPE-1kV Rdc=0.524 Runits=km GMRac=0.2952 GMRunits=cm Radunits=cm NormAmps=136.0 Diam=0.72
+New WireData.Cu-16mm2-XLPE-1kV Rdc=1.15 Runits=km GMRac=0.2009 GMRunits=cm Radunits=cm NormAmps=87.0 Diam=0.49
+New WireData.Cu-35mm2-1kV Rdc=0.524 Runits=km GMRac=0.2952 GMRunits=cm Radunits=cm NormAmps=136.0 Diam=0.72
+New WireData.Cu-70mm2-XLPE-1kV Rdc=0.268 Runits=km GMRac=0.41 GMRunits=cm Radunits=cm NormAmps=210.0 Diam=1.0
+New WireData.CA-95mm2-XLPE-1kV Rdc=0.32 Runits=km GMRac=0.47027 GMRunits=cm Radunits=cm NormAmps=190.0 Diam=1.147
+New WireData.CA-185mm2-XLPE-1kV Rdc=0.164 Runits=km GMRac=0.65682 GMRunits=cm Radunits=cm Diam=1.602
+New WireData.CA-185mm2-1kV Rdc=0.164 Runits=km GMRac=0.65682 GMRunits=cm Radunits=cm Diam=1.602
+New WireData.Cu-240mm2-XLPE-1kV Rdc=0.0754 Runits=km GMRac=0.8446 GMRunits=cm Radunits=cm NormAmps=520.0 Diam=2.06
+New WireData.CA-2AWG-XLPE-1kV Rdc=0.8595 Runits=km GMRac=0.30381 GMRunits=cm Radunits=cm NormAmps=95.0 Diam=0.741
+New WireData.CA-4AWG-XLPE-1kV Rdc=1.365 Runits=km GMRac=0.24108 GMRunits=cm Radunits=cm Diam=0.588
+New WireData.Cu-16mm2-1kV Rdc=1.15 Runits=km GMRac=0.2009 GMRunits=cm Radunits=cm NormAmps=87.0 Diam=0.49
+New WireData.Cu-25mm2-XLPE-1kV Rdc=0.727 Runits=km GMRac=0.2501 GMRunits=cm Radunits=cm NormAmps=110.0 Diam=0.61
+New WireData.CA-95mm2-1kV Rdc=0.32 Runits=km GMRac=0.47027 GMRunits=cm Radunits=cm NormAmps=190.0 Diam=1.147
+New WireData.CA-6mm2-XLPE-1kV Rdc=5.33 Runits=km GMRac=0.12833 GMRunits=cm Radunits=cm NormAmps=31.0 Diam=0.313
+New WireData.CA-7.5mm2-XLPE-1kV Rdc=4.1066666667 Runits=km GMRac=0.1435 GMRunits=cm Radunits=cm NormAmps=36.0 Diam=0.35
+New WireData.Cu-95mm2-XLPE-1kV Rdc=0.193 Runits=km GMRac=0.4879 GMRunits=cm Radunits=cm NormAmps=255.0 Diam=1.19
+New WireData.Cu-150mm2-XLPE-1kV Rdc=0.124 Runits=km GMRac=0.6642 GMRunits=cm Radunits=cm NormAmps=370.0 Diam=1.62
+New WireData.Cu-185mm2-XLPE-1kV Rdc=0.0991 Runits=km GMRac=0.738 GMRunits=cm Radunits=cm NormAmps=435.0 Diam=1.8
+New WireData.CA-6AWG-XLPE-1kV Rdc=2.1826 Runits=km GMRac=0.19065 GMRunits=cm Radunits=cm Diam=0.465
+New WireData.Cu-6AWG-XLPE-1kV Rdc=1.28 Runits=km GMRac=0.19065 GMRunits=cm Radunits=cm NormAmps=70.0 Diam=0.465

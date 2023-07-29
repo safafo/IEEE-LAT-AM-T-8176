@@ -1,0 +1,4 @@
+! Created by miniodss on 2015-12-14T17:50
+New Transformer.34101150 Windings=2 XHL=3.09172371915 
+ ~ Wdg=1 Bus=bus_34460660.1.2.3 Conn=delta  kV=11.4 kVA=45.0 Tap=1.0 %R=0.776666666667 
+ ~ Wdg=2 Bus=bus_3286187_34101150.1.2.3 Conn=wye  kV=0.22 kVA=45.0 Tap=1.0 %R=0.776666666667

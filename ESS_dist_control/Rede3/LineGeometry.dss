@@ -1,0 +1,1918 @@
+! Created by miniodss on 2015-12-14T17:47
+New LineGeometry.PRI-N3-CA-1_0AWG-15kV-CA-1_0AWG-15kV-CA-1_0AWG-15kV Nconds=3 
+ ~ Cond=1 Wire=CA-1/0AWG-15kV X=-85.0 H=1080.0 Units=cm 
+ ~ Cond=2 Wire=CA-1/0AWG-15kV X=0.0 H=1080.0 Units=cm 
+ ~ Cond=3 Wire=CA-1/0AWG-15kV X=85.0 H=1080.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.PRI-N3-CA-2AWG-CA-2AWG-CA-2AWG Nconds=3 
+ ~ Cond=1 Wire=CA-2AWG X=-85.0 H=1080.0 Units=cm 
+ ~ Cond=2 Wire=CA-2AWG X=0.0 H=1080.0 Units=cm 
+ ~ Cond=3 Wire=CA-2AWG X=85.0 H=1080.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.PRI-N3-CAA-4AWG-CAA-4AWG-CAA-4AWG Nconds=3 
+ ~ Cond=1 Wire=CAA-4AWG X=-85.0 H=1080.0 Units=cm 
+ ~ Cond=2 Wire=CAA-4AWG X=0.0 H=1080.0 Units=cm 
+ ~ Cond=3 Wire=CAA-4AWG X=85.0 H=1080.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.PRI-N3-CA-477MCM-15kV-CA-477MCM-15kV-CA-477MCM-15kV Nconds=3 
+ ~ Cond=1 Wire=CA-477MCM-15kV X=-85.0 H=1080.0 Units=cm 
+ ~ Cond=2 Wire=CA-477MCM-15kV X=0.0 H=1080.0 Units=cm 
+ ~ Cond=3 Wire=CA-477MCM-15kV X=85.0 H=1080.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.PRI-N3-CA-1_0AWG-15kV Nconds=1 Nphases=1 
+ ~ Cond=1 Wire=CA-1/0AWG-15kV X=-85.0 H=1080.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.PRI-N3-CA-2AWG Nconds=1 Nphases=1 
+ ~ Cond=1 Wire=CA-2AWG X=-85.0 H=1080.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.PRI-N3-CAA-2AWG Nconds=1 Nphases=1 
+ ~ Cond=1 Wire=CAA-2AWG X=-85.0 H=1080.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.PRI-N3-CAA-4AWG Nconds=1 Nphases=1 
+ ~ Cond=1 Wire=CAA-4AWG X=-85.0 H=1080.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.PRI-N3-CAA-6AWG Nconds=1 Nphases=1 
+ ~ Cond=1 Wire=CAA-6AWG X=-85.0 H=1080.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.PRI-Sep__Losangular_15-CA-1_0AWG-15kV Nconds=1 Nphases=1 
+ ~ Cond=1 Wire=CA-1/0AWG-15kV X=-12.0 H=1085.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.PRI-Sep__Losangular_15-CA-70mm2-PR-XLPE-15kV Nconds=1 Nphases=1 
+ ~ Cond=1 Wire=CA-70mm2-PR-XLPE-15kV X=-12.0 H=1085.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.PRI-N3-CA-70mm2-PR-XLPE-15kV-CA-70mm2-PR-XLPE-15kV Nconds=2 Nphases=2 
+ ~ Cond=1 Wire=CA-70mm2-PR-XLPE-15kV X=-85.0 H=1080.0 Units=cm 
+ ~ Cond=2 Wire=CA-70mm2-PR-XLPE-15kV X=0.0 H=1080.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.PRI-N3-CA-2AWG-CA-2AWG Nconds=2 Nphases=2 
+ ~ Cond=1 Wire=CA-2AWG X=-85.0 H=1080.0 Units=cm 
+ ~ Cond=2 Wire=CA-2AWG X=0.0 H=1080.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.PRI-N3-CAA-2AWG-CAA-2AWG Nconds=2 Nphases=2 
+ ~ Cond=1 Wire=CAA-2AWG X=-85.0 H=1080.0 Units=cm 
+ ~ Cond=2 Wire=CAA-2AWG X=0.0 H=1080.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.PRI-N3-CA-4AWG-CA-4AWG Nconds=2 Nphases=2 
+ ~ Cond=1 Wire=CA-4AWG X=-85.0 H=1080.0 Units=cm 
+ ~ Cond=2 Wire=CA-4AWG X=0.0 H=1080.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.PRI-N3-CAA-4AWG-CAA-4AWG Nconds=2 Nphases=2 
+ ~ Cond=1 Wire=CAA-4AWG X=-85.0 H=1080.0 Units=cm 
+ ~ Cond=2 Wire=CAA-4AWG X=0.0 H=1080.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.PRI-N3-CA-6AWG-CA-6AWG Nconds=2 Nphases=2 
+ ~ Cond=1 Wire=CA-6AWG X=-85.0 H=1080.0 Units=cm 
+ ~ Cond=2 Wire=CA-6AWG X=0.0 H=1080.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.PRI-N3-CAA-6AWG-CAA-6AWG Nconds=2 Nphases=2 
+ ~ Cond=1 Wire=CAA-6AWG X=-85.0 H=1080.0 Units=cm 
+ ~ Cond=2 Wire=CAA-6AWG X=0.0 H=1080.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.PRI-Sep__Losangular_15-CA-1_0AWG-15kV-CA-1_0AWG-15kV Nconds=2 Nphases=2 
+ ~ Cond=1 Wire=CA-1/0AWG-15kV X=-12.0 H=1085.0 Units=cm 
+ ~ Cond=2 Wire=CA-1/0AWG-15kV X=0.0 H=1070.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.PRI-N3-Cu-35mm2-XLPE-15kV-Cu-35mm2-XLPE-15kV-Cu-35mm2-XLPE-15kV Nconds=3 
+ ~ Cond=1 Wire=Cu-35mm2-XLPE-15kV X=-85.0 H=1080.0 Units=cm 
+ ~ Cond=2 Wire=Cu-35mm2-XLPE-15kV X=0.0 H=1080.0 Units=cm 
+ ~ Cond=3 Wire=Cu-35mm2-XLPE-15kV X=85.0 H=1080.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.PRI-N3-CA-35mm2-XLPE-15kV-CA-35mm2-XLPE-15kV-CA-35mm2-XLPE-15kV Nconds=3 
+ ~ Cond=1 Wire=CA-35mm2-XLPE-15kV X=-85.0 H=1080.0 Units=cm 
+ ~ Cond=2 Wire=CA-35mm2-XLPE-15kV X=0.0 H=1080.0 Units=cm 
+ ~ Cond=3 Wire=CA-35mm2-XLPE-15kV X=85.0 H=1080.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.PRI-N3-Cu-50mm2-XLPE-15kV-Cu-50mm2-XLPE-15kV-Cu-50mm2-XLPE-15kV Nconds=3 
+ ~ Cond=1 Wire=Cu-50mm2-XLPE-15kV X=-85.0 H=1080.0 Units=cm 
+ ~ Cond=2 Wire=Cu-50mm2-XLPE-15kV X=0.0 H=1080.0 Units=cm 
+ ~ Cond=3 Wire=Cu-50mm2-XLPE-15kV X=85.0 H=1080.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.PRI-N3-CA-70mm2-PR-XLPE-15kV-CA-70mm2-PR-XLPE-15kV-CA-70mm2-PR-XLPE-15kV Nconds=3 
+ ~ Cond=1 Wire=CA-70mm2-PR-XLPE-15kV X=-85.0 H=1080.0 Units=cm 
+ ~ Cond=2 Wire=CA-70mm2-PR-XLPE-15kV X=0.0 H=1080.0 Units=cm 
+ ~ Cond=3 Wire=CA-70mm2-PR-XLPE-15kV X=85.0 H=1080.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.PRI-N3-Cu-1AWG-Cu-1AWG-Cu-1AWG Nconds=3 
+ ~ Cond=1 Wire=Cu-1AWG X=-85.0 H=1080.0 Units=cm 
+ ~ Cond=2 Wire=Cu-1AWG X=0.0 H=1080.0 Units=cm 
+ ~ Cond=3 Wire=Cu-1AWG X=85.0 H=1080.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.PRI-N3-Cu-1_0AWG-Cu-1_0AWG-Cu-1_0AWG Nconds=3 
+ ~ Cond=1 Wire=Cu-1/0AWG X=-85.0 H=1080.0 Units=cm 
+ ~ Cond=2 Wire=Cu-1/0AWG X=0.0 H=1080.0 Units=cm 
+ ~ Cond=3 Wire=Cu-1/0AWG X=85.0 H=1080.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.PRI-N3-CA-1_0AWG-XLPE-15kV-CA-1_0AWG-XLPE-15kV-CA-1_0AWG-XLPE-15kV Nconds=3 
+ ~ Cond=1 Wire=CA-1/0AWG-XLPE-15kV X=-85.0 H=1080.0 Units=cm 
+ ~ Cond=2 Wire=CA-1/0AWG-XLPE-15kV X=0.0 H=1080.0 Units=cm 
+ ~ Cond=3 Wire=CA-1/0AWG-XLPE-15kV X=85.0 H=1080.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.PRI-N3-CAA-1_0AWG-CAA-1_0AWG-CAA-1_0AWG Nconds=3 
+ ~ Cond=1 Wire=CAA-1/0AWG X=-85.0 H=1080.0 Units=cm 
+ ~ Cond=2 Wire=CAA-1/0AWG X=0.0 H=1080.0 Units=cm 
+ ~ Cond=3 Wire=CAA-1/0AWG X=85.0 H=1080.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.PRI-N3-Cu-2_0AWG-Cu-2_0AWG-Cu-2_0AWG Nconds=3 
+ ~ Cond=1 Wire=Cu-2/0AWG X=-85.0 H=1080.0 Units=cm 
+ ~ Cond=2 Wire=Cu-2/0AWG X=0.0 H=1080.0 Units=cm 
+ ~ Cond=3 Wire=Cu-2/0AWG X=85.0 H=1080.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.PRI-N3-CA-2_0AWG-CA-2_0AWG-CA-2_0AWG Nconds=3 
+ ~ Cond=1 Wire=CA-2/0AWG X=-85.0 H=1080.0 Units=cm 
+ ~ Cond=2 Wire=CA-2/0AWG X=0.0 H=1080.0 Units=cm 
+ ~ Cond=3 Wire=CA-2/0AWG X=85.0 H=1080.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.PRI-N3-CAA-2_0AWG-CAA-2_0AWG-CAA-2_0AWG Nconds=3 
+ ~ Cond=1 Wire=CAA-2/0AWG X=-85.0 H=1080.0 Units=cm 
+ ~ Cond=2 Wire=CAA-2/0AWG X=0.0 H=1080.0 Units=cm 
+ ~ Cond=3 Wire=CAA-2/0AWG X=85.0 H=1080.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.PRI-N3-Cu-4_0AWG-Cu-4_0AWG-Cu-4_0AWG Nconds=3 
+ ~ Cond=1 Wire=Cu-4/0AWG X=-85.0 H=1080.0 Units=cm 
+ ~ Cond=2 Wire=Cu-4/0AWG X=0.0 H=1080.0 Units=cm 
+ ~ Cond=3 Wire=Cu-4/0AWG X=85.0 H=1080.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.PRI-N3-CA-4_0AWG-15kV-CA-4_0AWG-15kV-CA-4_0AWG-15kV Nconds=3 
+ ~ Cond=1 Wire=CA-4/0AWG-15kV X=-85.0 H=1080.0 Units=cm 
+ ~ Cond=2 Wire=CA-4/0AWG-15kV X=0.0 H=1080.0 Units=cm 
+ ~ Cond=3 Wire=CA-4/0AWG-15kV X=85.0 H=1080.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.PRI-N3-CAA-4_0AWG-CAA-4_0AWG-CAA-4_0AWG Nconds=3 
+ ~ Cond=1 Wire=CAA-4/0AWG X=-85.0 H=1080.0 Units=cm 
+ ~ Cond=2 Wire=CAA-4/0AWG X=0.0 H=1080.0 Units=cm 
+ ~ Cond=3 Wire=CAA-4/0AWG X=85.0 H=1080.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.PRI-N3-Cu-2AWG-Cu-2AWG-Cu-2AWG Nconds=3 
+ ~ Cond=1 Wire=Cu-2AWG X=-85.0 H=1080.0 Units=cm 
+ ~ Cond=2 Wire=Cu-2AWG X=0.0 H=1080.0 Units=cm 
+ ~ Cond=3 Wire=Cu-2AWG X=85.0 H=1080.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.PRI-N3-CAA-2AWG-CAA-2AWG-CAA-2AWG Nconds=3 
+ ~ Cond=1 Wire=CAA-2AWG X=-85.0 H=1080.0 Units=cm 
+ ~ Cond=2 Wire=CAA-2AWG X=0.0 H=1080.0 Units=cm 
+ ~ Cond=3 Wire=CAA-2AWG X=85.0 H=1080.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.PRI-N3-Cu-4AWG-Cu-4AWG-Cu-4AWG Nconds=3 
+ ~ Cond=1 Wire=Cu-4AWG X=-85.0 H=1080.0 Units=cm 
+ ~ Cond=2 Wire=Cu-4AWG X=0.0 H=1080.0 Units=cm 
+ ~ Cond=3 Wire=Cu-4AWG X=85.0 H=1080.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.PRI-N3-CA-4AWG-CA-4AWG-CA-4AWG Nconds=3 
+ ~ Cond=1 Wire=CA-4AWG X=-85.0 H=1080.0 Units=cm 
+ ~ Cond=2 Wire=CA-4AWG X=0.0 H=1080.0 Units=cm 
+ ~ Cond=3 Wire=CA-4AWG X=85.0 H=1080.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.PRI-N3-CA-185mm2-PR-XLPE-15kV-CA-185mm2-PR-XLPE-15kV-CA-185mm2-PR-XLPE-15kV Nconds=3 
+ ~ Cond=1 Wire=CA-185mm2-PR-XLPE-15kV X=-85.0 H=1080.0 Units=cm 
+ ~ Cond=2 Wire=CA-185mm2-PR-XLPE-15kV X=0.0 H=1080.0 Units=cm 
+ ~ Cond=3 Wire=CA-185mm2-PR-XLPE-15kV X=85.0 H=1080.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.PRI-N3-Cu-6AWG-Cu-6AWG-Cu-6AWG Nconds=3 
+ ~ Cond=1 Wire=Cu-6AWG X=-85.0 H=1080.0 Units=cm 
+ ~ Cond=2 Wire=Cu-6AWG X=0.0 H=1080.0 Units=cm 
+ ~ Cond=3 Wire=Cu-6AWG X=85.0 H=1080.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.PRI-N3-CA-6AWG-CA-6AWG-CA-6AWG Nconds=3 
+ ~ Cond=1 Wire=CA-6AWG X=-85.0 H=1080.0 Units=cm 
+ ~ Cond=2 Wire=CA-6AWG X=0.0 H=1080.0 Units=cm 
+ ~ Cond=3 Wire=CA-6AWG X=85.0 H=1080.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.PRI-N3-CAA-6AWG-CAA-6AWG-CAA-6AWG Nconds=3 
+ ~ Cond=1 Wire=CAA-6AWG X=-85.0 H=1080.0 Units=cm 
+ ~ Cond=2 Wire=CAA-6AWG X=0.0 H=1080.0 Units=cm 
+ ~ Cond=3 Wire=CAA-6AWG X=85.0 H=1080.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.PRI-N3-CA-336_4MCM-CA-336_4MCM-CA-336_4MCM Nconds=3 
+ ~ Cond=1 Wire=CA-336.4MCM X=-85.0 H=1080.0 Units=cm 
+ ~ Cond=2 Wire=CA-336.4MCM X=0.0 H=1080.0 Units=cm 
+ ~ Cond=3 Wire=CA-336.4MCM X=85.0 H=1080.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.PRI-N3-CAA-336_4MCM-CAA-336_4MCM-CAA-336_4MCM Nconds=3 
+ ~ Cond=1 Wire=CAA-336.4MCM X=-85.0 H=1080.0 Units=cm 
+ ~ Cond=2 Wire=CAA-336.4MCM X=0.0 H=1080.0 Units=cm 
+ ~ Cond=3 Wire=CAA-336.4MCM X=85.0 H=1080.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.PRI-N3-Cu-8AWG-Cu-8AWG-Cu-8AWG Nconds=3 
+ ~ Cond=1 Wire=Cu-8AWG X=-85.0 H=1080.0 Units=cm 
+ ~ Cond=2 Wire=Cu-8AWG X=0.0 H=1080.0 Units=cm 
+ ~ Cond=3 Wire=Cu-8AWG X=85.0 H=1080.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.PRI-N3-CA-477MCM-XLPE-15kV-CA-477MCM-XLPE-15kV-CA-477MCM-XLPE-15kV Nconds=3 
+ ~ Cond=1 Wire=CA-477MCM-XLPE-15kV X=-85.0 H=1080.0 Units=cm 
+ ~ Cond=2 Wire=CA-477MCM-XLPE-15kV X=0.0 H=1080.0 Units=cm 
+ ~ Cond=3 Wire=CA-477MCM-XLPE-15kV X=85.0 H=1080.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.PRI-N3-CAA-477MCM-CAA-477MCM-CAA-477MCM Nconds=3 
+ ~ Cond=1 Wire=CAA-477MCM X=-85.0 H=1080.0 Units=cm 
+ ~ Cond=2 Wire=CAA-477MCM X=0.0 H=1080.0 Units=cm 
+ ~ Cond=3 Wire=CAA-477MCM X=85.0 H=1080.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.PRI-Separador_vertical-CA-1_0AWG-15kV-CA-1_0AWG-15kV-CA-1_0AWG-15kV Nconds=3 
+ ~ Cond=1 Wire=CA-1/0AWG-15kV X=0.0 H=1100.0 Units=cm 
+ ~ Cond=2 Wire=CA-1/0AWG-15kV X=0.0 H=1080.9 Units=cm 
+ ~ Cond=3 Wire=CA-1/0AWG-15kV X=0.0 H=1061.8 Units=cm 
+ ~  Reduce=y
+New LineGeometry.PRI-Separador_vertical-CAA-4_0AWG-CAA-4_0AWG-CAA-4_0AWG Nconds=3 
+ ~ Cond=1 Wire=CAA-4/0AWG X=0.0 H=1100.0 Units=cm 
+ ~ Cond=2 Wire=CAA-4/0AWG X=0.0 H=1080.9 Units=cm 
+ ~ Cond=3 Wire=CAA-4/0AWG X=0.0 H=1061.8 Units=cm 
+ ~  Reduce=y
+New LineGeometry.PRI-Separador_vertical-CA-4AWG-CA-4AWG-CA-4AWG Nconds=3 
+ ~ Cond=1 Wire=CA-4AWG X=0.0 H=1100.0 Units=cm 
+ ~ Cond=2 Wire=CA-4AWG X=0.0 H=1080.9 Units=cm 
+ ~ Cond=3 Wire=CA-4AWG X=0.0 H=1061.8 Units=cm 
+ ~  Reduce=y
+New LineGeometry.PRI-Separador_vertical-CA-6AWG-CA-6AWG-CA-6AWG Nconds=3 
+ ~ Cond=1 Wire=CA-6AWG X=0.0 H=1100.0 Units=cm 
+ ~ Cond=2 Wire=CA-6AWG X=0.0 H=1080.9 Units=cm 
+ ~ Cond=3 Wire=CA-6AWG X=0.0 H=1061.8 Units=cm 
+ ~  Reduce=y
+New LineGeometry.PRI-TRIPLEX__3_CA-1_0AWG-15kV Nconds=3 
+ ~ Cond=1 Wire=CA-1/0AWG-15kV X=0.0 H=1100.94536 Units=cm 
+ ~ Cond=2 Wire=CA-1/0AWG-15kV X=0.818705775722 H=1100.47268 Units=cm 
+ ~ Cond=3 Wire=CA-1/0AWG-15kV X=0.0 H=1100.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.PRI-TRIPLEX__3_CA-240mm2-XLPE-15kV Nconds=3 
+ ~ Cond=1 Wire=CA-240mm2-XLPE-15kV X=0.0 H=1102.45935 Units=cm 
+ ~ Cond=2 Wire=CA-240mm2-XLPE-15kV X=2.1298595768 H=1101.229675 Units=cm 
+ ~ Cond=3 Wire=CA-240mm2-XLPE-15kV X=0.0 H=1100.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.PRI-Sep__Losangular_15-CA-1_0AWG-15kV-CA-1_0AWG-15kV-CA-1_0AWG-15kV Nconds=3 
+ ~ Cond=1 Wire=CA-1/0AWG-15kV X=-12.0 H=1085.0 Units=cm 
+ ~ Cond=2 Wire=CA-1/0AWG-15kV X=0.0 H=1070.0 Units=cm 
+ ~ Cond=3 Wire=CA-1/0AWG-15kV X=12.0 H=1085.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.PRI-Sep__Losangular_15-CA-2AWG-CA-2AWG-CA-2AWG Nconds=3 
+ ~ Cond=1 Wire=CA-2AWG X=-12.0 H=1085.0 Units=cm 
+ ~ Cond=2 Wire=CA-2AWG X=0.0 H=1070.0 Units=cm 
+ ~ Cond=3 Wire=CA-2AWG X=12.0 H=1085.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.PRI-Sep__Losangular_15-CA-70mm2-PR-XLPE-15kV-CA-70mm2-PR-XLPE-15kV-CA-70mm2-PR-XLPE-15kV Nconds=3 
+ ~ Cond=1 Wire=CA-70mm2-PR-XLPE-15kV X=-12.0 H=1085.0 Units=cm 
+ ~ Cond=2 Wire=CA-70mm2-PR-XLPE-15kV X=0.0 H=1070.0 Units=cm 
+ ~ Cond=3 Wire=CA-70mm2-PR-XLPE-15kV X=12.0 H=1085.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.PRI-Sep__Losangular_15-CA-95mm2-PR-XLPE-15kV-CA-95mm2-PR-XLPE-15kV-CA-95mm2-PR-XLPE-15kV Nconds=3 
+ ~ Cond=1 Wire=CA-95mm2-PR-XLPE-15kV X=-12.0 H=1085.0 Units=cm 
+ ~ Cond=2 Wire=CA-95mm2-PR-XLPE-15kV X=0.0 H=1070.0 Units=cm 
+ ~ Cond=3 Wire=CA-95mm2-PR-XLPE-15kV X=12.0 H=1085.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.PRI-Sep__Losangular_15-CA-185mm2-PR-XLPE-15kV-CA-185mm2-PR-XLPE-15kV-CA-185mm2-PR-XLPE-15kV Nconds=3 
+ ~ Cond=1 Wire=CA-185mm2-PR-XLPE-15kV X=-12.0 H=1085.0 Units=cm 
+ ~ Cond=2 Wire=CA-185mm2-PR-XLPE-15kV X=0.0 H=1070.0 Units=cm 
+ ~ Cond=3 Wire=CA-185mm2-PR-XLPE-15kV X=12.0 H=1085.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.PRI-Sep__Losangular_15-CA-300mm2-PR-XLPE-15kV-CA-300mm2-PR-XLPE-15kV-CA-300mm2-PR-XLPE-15kV Nconds=3 
+ ~ Cond=1 Wire=CA-300mm2-PR-XLPE-15kV X=-12.0 H=1085.0 Units=cm 
+ ~ Cond=2 Wire=CA-300mm2-PR-XLPE-15kV X=0.0 H=1070.0 Units=cm 
+ ~ Cond=3 Wire=CA-300mm2-PR-XLPE-15kV X=12.0 H=1085.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.PRI-N3-Cu-70mm2-XLPE-15kV-Cu-70mm2-XLPE-15kV-Cu-70mm2-XLPE-15kV Nconds=3 
+ ~ Cond=1 Wire=Cu-70mm2-XLPE-15kV X=-85.0 H=1080.0 Units=cm 
+ ~ Cond=2 Wire=Cu-70mm2-XLPE-15kV X=0.0 H=1080.0 Units=cm 
+ ~ Cond=3 Wire=Cu-70mm2-XLPE-15kV X=85.0 H=1080.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.PRI-N3-CA-70mm2-XLPE-15kV-CA-70mm2-XLPE-15kV-CA-70mm2-XLPE-15kV Nconds=3 
+ ~ Cond=1 Wire=CA-70mm2-XLPE-15kV X=-85.0 H=1080.0 Units=cm 
+ ~ Cond=2 Wire=CA-70mm2-XLPE-15kV X=0.0 H=1080.0 Units=cm 
+ ~ Cond=3 Wire=CA-70mm2-XLPE-15kV X=85.0 H=1080.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.PRI-N3-Cu-120mm2-XLPE-15kV-Cu-120mm2-XLPE-15kV-Cu-120mm2-XLPE-15kV Nconds=3 
+ ~ Cond=1 Wire=Cu-120mm2-XLPE-15kV X=-85.0 H=1080.0 Units=cm 
+ ~ Cond=2 Wire=Cu-120mm2-XLPE-15kV X=0.0 H=1080.0 Units=cm 
+ ~ Cond=3 Wire=Cu-120mm2-XLPE-15kV X=85.0 H=1080.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.PRI-N3-Cu-185mm2-XLPE-15kV-Cu-185mm2-XLPE-15kV-Cu-185mm2-XLPE-15kV Nconds=3 
+ ~ Cond=1 Wire=Cu-185mm2-XLPE-15kV X=-85.0 H=1080.0 Units=cm 
+ ~ Cond=2 Wire=Cu-185mm2-XLPE-15kV X=0.0 H=1080.0 Units=cm 
+ ~ Cond=3 Wire=Cu-185mm2-XLPE-15kV X=85.0 H=1080.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.PRI-N3-Cu-240mm2-XLPE-15kV-Cu-240mm2-XLPE-15kV-Cu-240mm2-XLPE-15kV Nconds=3 
+ ~ Cond=1 Wire=Cu-240mm2-XLPE-15kV X=-85.0 H=1080.0 Units=cm 
+ ~ Cond=2 Wire=Cu-240mm2-XLPE-15kV X=0.0 H=1080.0 Units=cm 
+ ~ Cond=3 Wire=Cu-240mm2-XLPE-15kV X=85.0 H=1080.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.PRI-N3-Cu-500mm2-XLPE-15kV-Cu-500mm2-XLPE-15kV-Cu-500mm2-XLPE-15kV Nconds=3 
+ ~ Cond=1 Wire=Cu-500mm2-XLPE-15kV X=-85.0 H=1080.0 Units=cm 
+ ~ Cond=2 Wire=Cu-500mm2-XLPE-15kV X=0.0 H=1080.0 Units=cm 
+ ~ Cond=3 Wire=Cu-500mm2-XLPE-15kV X=85.0 H=1080.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.PRI-N3-Cu-800mm2-XLPE-15kV-Cu-800mm2-XLPE-15kV-Cu-800mm2-XLPE-15kV Nconds=3 
+ ~ Cond=1 Wire=Cu-800mm2-XLPE-15kV X=-85.0 H=1080.0 Units=cm 
+ ~ Cond=2 Wire=Cu-800mm2-XLPE-15kV X=0.0 H=1080.0 Units=cm 
+ ~ Cond=3 Wire=Cu-800mm2-XLPE-15kV X=85.0 H=1080.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.PRI-N3-Cu-500MCM-XLPE-15kV-Cu-500MCM-XLPE-15kV-Cu-500MCM-XLPE-15kV Nconds=3 
+ ~ Cond=1 Wire=Cu-500MCM-XLPE-15kV X=-85.0 H=1080.0 Units=cm 
+ ~ Cond=2 Wire=Cu-500MCM-XLPE-15kV X=0.0 H=1080.0 Units=cm 
+ ~ Cond=3 Wire=Cu-500MCM-XLPE-15kV X=85.0 H=1080.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.PRI-N3-CA-1_0AWG-15kV-CA-1_0AWG-15kV Nconds=2 Nphases=2 
+ ~ Cond=1 Wire=CA-1/0AWG-15kV X=-85.0 H=1080.0 Units=cm 
+ ~ Cond=2 Wire=CA-1/0AWG-15kV X=0.0 H=1080.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.PRI-N3-CAA-4_0AWG-CAA-4_0AWG Nconds=2 Nphases=2 
+ ~ Cond=1 Wire=CAA-4/0AWG X=-85.0 H=1080.0 Units=cm 
+ ~ Cond=2 Wire=CAA-4/0AWG X=0.0 H=1080.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.PRI-N3-Cu-6AWG-Cu-6AWG Nconds=2 Nphases=2 
+ ~ Cond=1 Wire=Cu-6AWG X=-85.0 H=1080.0 Units=cm 
+ ~ Cond=2 Wire=Cu-6AWG X=0.0 H=1080.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.PRI-Separador_vertical-CA-4AWG-CA-4AWG Nconds=2 Nphases=2 
+ ~ Cond=1 Wire=CA-4AWG X=0.0 H=1100.0 Units=cm 
+ ~ Cond=2 Wire=CA-4AWG X=0.0 H=1080.9 Units=cm 
+ ~  Reduce=y
+New LineGeometry.PRI-Separador_vertical-CA-6AWG-CA-6AWG Nconds=2 Nphases=2 
+ ~ Cond=1 Wire=CA-6AWG X=0.0 H=1100.0 Units=cm 
+ ~ Cond=2 Wire=CA-6AWG X=0.0 H=1080.9 Units=cm 
+ ~  Reduce=y
+New LineGeometry.PRI-N3-CA-4AWG Nconds=1 Nphases=1 
+ ~ Cond=1 Wire=CA-4AWG X=-85.0 H=1080.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.PRI-Sep__Losangular_15-CA-185mm2-PR-XLPE-15kV Nconds=1 Nphases=1 
+ ~ Cond=1 Wire=CA-185mm2-PR-XLPE-15kV X=-12.0 H=1085.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-10mm2-XLPE-1kV Nconds=1 Nphases=1 
+ ~ Cond=1 Wire=CA-10mm2-XLPE-1kV X=0.0 H=880.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-1_0AWG-1kV-CA-1_0AWG-1kV Nconds=2 Nphases=2 
+ ~ Cond=1 Wire=CA-1/0AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-1/0AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-10mm2-XLPE-1kV-CA-10mm2-XLPE-1kV Nconds=2 Nphases=2 
+ ~ Cond=1 Wire=CA-10mm2-XLPE-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-10mm2-XLPE-1kV X=0.0 H=860.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-TRIPLEX__3_CA-1_0AWG-XLPE-1kV Nconds=3 
+ ~ Cond=1 Wire=CA-1/0AWG-XLPE-1kV X=0.0 H=901.33926 Units=cm 
+ ~ Cond=2 Wire=CA-1/0AWG-XLPE-1kV X=1.15983318227 H=900.66963 Units=cm 
+ ~ Cond=3 Wire=CA-1/0AWG-XLPE-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-TRIPLEX__3_CA-10mm2-XLPE-1kV Nconds=3 
+ ~ Cond=1 Wire=CA-10mm2-XLPE-1kV X=0.0 H=900.7575 Units=cm 
+ ~ Cond=2 Wire=CA-10mm2-XLPE-1kV X=0.656014243367 H=900.37875 Units=cm 
+ ~ Cond=3 Wire=CA-10mm2-XLPE-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-TRIPLEX__3_CA-50mm2-XLPE-1kV Nconds=3 
+ ~ Cond=1 Wire=CA-50mm2-XLPE-1kV X=0.0 H=901.2625 Units=cm 
+ ~ Cond=2 Wire=CA-50mm2-XLPE-1kV X=1.09335707228 H=900.63125 Units=cm 
+ ~ Cond=3 Wire=CA-50mm2-XLPE-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-TRIPLEX__3_CA-70mm2-XLPE-1kV Nconds=3 
+ ~ Cond=1 Wire=CA-70mm2-XLPE-1kV X=0.0 H=901.4645 Units=cm 
+ ~ Cond=2 Wire=CA-70mm2-XLPE-1kV X=1.26829420384 H=900.73225 Units=cm 
+ ~ Cond=3 Wire=CA-70mm2-XLPE-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-1_0AWG-1kV-CA-1_0AWG-1kV-CA-1_0AWG-1kV Nconds=3 
+ ~ Cond=1 Wire=CA-1/0AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-1/0AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=CA-1/0AWG-1kV X=0.0 H=840.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-2AWG-1kV-CA-2AWG-1kV-CA-2AWG-1kV Nconds=3 
+ ~ Cond=1 Wire=CA-2AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-2AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=CA-2AWG-1kV X=0.0 H=840.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-Cu-6AWG-1kV-Cu-6AWG-1kV-Cu-6AWG-1kV Nconds=3 
+ ~ Cond=1 Wire=Cu-6AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=Cu-6AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=Cu-6AWG-1kV X=0.0 H=840.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-10mm2-XLPE-1kV-CA-10mm2-XLPE-1kV-CA-10mm2-XLPE-1kV Nconds=3 
+ ~ Cond=1 Wire=CA-10mm2-XLPE-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-10mm2-XLPE-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=CA-10mm2-XLPE-1kV X=0.0 H=840.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-35mm2-XLPE-1kV-CA-35mm2-XLPE-1kV-CA-35mm2-XLPE-1kV Nconds=3 
+ ~ Cond=1 Wire=CA-35mm2-XLPE-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-35mm2-XLPE-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=CA-35mm2-XLPE-1kV X=0.0 H=840.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-QUADRUPLEX__3_CA-1_0AWG-XLPE-1kV__1_CA-2AWG-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=CA-1/0AWG-XLPE-1kV X=0.0 H=901.043835 Units=cm 
+ ~ Cond=2 Wire=CA-1/0AWG-XLPE-1kV X=1.02736662948 H=900.184687075 Units=cm 
+ ~ Cond=3 Wire=CA-1/0AWG-XLPE-1kV X=0.36354661079 H=899.021518846 Units=cm 
+ ~ Cond=4 Wire=CA-2AWG-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-QUADRUPLEX__4_CA-1_0AWG-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=CA-1/0AWG-1kV X=0.0 H=900.94536 Units=cm 
+ ~ Cond=2 Wire=CA-1/0AWG-1kV X=0.818705775722 H=900.47268 Units=cm 
+ ~ Cond=3 Wire=CA-1/0AWG-1kV X=0.818705775722 H=899.52732 Units=cm 
+ ~ Cond=4 Wire=CA-1/0AWG-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-QUADRUPLEX__3_CA-1_0AWG-1kV__1_CA-2AWG-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=CA-1/0AWG-1kV X=0.0 H=900.846885 Units=cm 
+ ~ Cond=2 Wire=CA-1/0AWG-1kV X=0.784409723948 H=900.319242209 Units=cm 
+ ~ Cond=3 Wire=CA-1/0AWG-1kV X=0.59138299361 H=899.393798418 Units=cm 
+ ~ Cond=4 Wire=CA-2AWG-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-QUADRUPLEX__4_CA-2AWG-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=CA-2AWG-1kV X=0.0 H=900.74841 Units=cm 
+ ~ Cond=2 Wire=CA-2AWG-1kV X=0.648142072446 H=900.374205 Units=cm 
+ ~ Cond=3 Wire=CA-2AWG-1kV X=0.648142072446 H=899.625795 Units=cm 
+ ~ Cond=4 Wire=CA-2AWG-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-QUADRUPLEX__3_CA-10mm2-XLPE-1kV__1_CA-10mm2-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=CA-10mm2-XLPE-1kV X=0.0 H=900.583275 Units=cm 
+ ~ Cond=2 Wire=CA-10mm2-XLPE-1kV X=0.576070524611 H=900.091391883 Units=cm 
+ ~ Cond=3 Wire=CA-10mm2-XLPE-1kV X=0.180526064214 H=899.445364926 Units=cm 
+ ~ Cond=4 Wire=CA-10mm2-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-QUADRUPLEX__3_Cu-10mm2-XLPE-1kV__1_Cu-10mm2-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=Cu-10mm2-XLPE-1kV X=0.0 H=900.5757 Units=cm 
+ ~ Cond=2 Wire=Cu-10mm2-XLPE-1kV X=0.570480746111 H=900.077344737 Units=cm 
+ ~ Cond=3 Wire=Cu-10mm2-XLPE-1kV X=0.153287070285 H=899.445082381 Units=cm 
+ ~ Cond=4 Wire=Cu-10mm2-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-QUADRUPLEX__3_CA-50mm2-XLPE-1kV__1_CA-50mm2-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=CA-50mm2-XLPE-1kV X=0.0 H=901.040805 Units=cm 
+ ~ Cond=2 Wire=CA-50mm2-XLPE-1kV X=1.00379126584 H=900.275096606 Units=cm 
+ ~ Cond=3 Wire=CA-50mm2-XLPE-1kV X=0.530626909714 H=899.104617327 Units=cm 
+ ~ Cond=4 Wire=CA-50mm2-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-QUADRUPLEX__3_CA-70mm2-XLPE-1kV__1_CA-70mm2-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=CA-70mm2-XLPE-1kV X=0.0 H=901.224625 Units=cm 
+ ~ Cond=2 Wire=CA-70mm2-XLPE-1kV X=1.1738586224 H=900.348944588 Units=cm 
+ ~ Cond=3 Wire=CA-70mm2-XLPE-1kV X=0.668958436957 H=898.974231507 Units=cm 
+ ~ Cond=4 Wire=CA-70mm2-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-Cu-2AWG-Cu-2AWG-Cu-2AWG-CA-1_0AWG-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=Cu-2AWG X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=Cu-2AWG X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=Cu-2AWG X=0.0 H=840.0 Units=cm 
+ ~ Cond=4 Wire=CA-1/0AWG-1kV X=0.0 H=820.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-1_0AWG-1kV-CA-1_0AWG-1kV-CA-1_0AWG-1kV-Cu-1_0AWG Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=CA-1/0AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-1/0AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=CA-1/0AWG-1kV X=0.0 H=840.0 Units=cm 
+ ~ Cond=4 Wire=Cu-1/0AWG X=0.0 H=820.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-1_0AWG-1kV-CA-1_0AWG-1kV-CA-1_0AWG-1kV-CA-1_0AWG-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=CA-1/0AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-1/0AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=CA-1/0AWG-1kV X=0.0 H=840.0 Units=cm 
+ ~ Cond=4 Wire=CA-1/0AWG-1kV X=0.0 H=820.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-1_0AWG-1kV-CA-1_0AWG-1kV-CA-1_0AWG-1kV-CA-2_0AWG-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=CA-1/0AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-1/0AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=CA-1/0AWG-1kV X=0.0 H=840.0 Units=cm 
+ ~ Cond=4 Wire=CA-2/0AWG-1kV X=0.0 H=820.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-1_0AWG-1kV-CA-1_0AWG-1kV-CA-1_0AWG-1kV-CA-4_0AWG-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=CA-1/0AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-1/0AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=CA-1/0AWG-1kV X=0.0 H=840.0 Units=cm 
+ ~ Cond=4 Wire=CA-4/0AWG-1kV X=0.0 H=820.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-1_0AWG-1kV-CA-1_0AWG-1kV-CA-1_0AWG-1kV-Cu-2AWG Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=CA-1/0AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-1/0AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=CA-1/0AWG-1kV X=0.0 H=840.0 Units=cm 
+ ~ Cond=4 Wire=Cu-2AWG X=0.0 H=820.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-1_0AWG-1kV-CA-1_0AWG-1kV-CA-1_0AWG-1kV-CA-2AWG-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=CA-1/0AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-1/0AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=CA-1/0AWG-1kV X=0.0 H=840.0 Units=cm 
+ ~ Cond=4 Wire=CA-2AWG-1kV X=0.0 H=820.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-1_0AWG-1kV-CA-1_0AWG-1kV-CA-1_0AWG-1kV-CA-4AWG-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=CA-1/0AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-1/0AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=CA-1/0AWG-1kV X=0.0 H=840.0 Units=cm 
+ ~ Cond=4 Wire=CA-4AWG-1kV X=0.0 H=820.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-1_0AWG-1kV-CA-1_0AWG-1kV-CA-1_0AWG-1kV-Cu-6AWG-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=CA-1/0AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-1/0AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=CA-1/0AWG-1kV X=0.0 H=840.0 Units=cm 
+ ~ Cond=4 Wire=Cu-6AWG-1kV X=0.0 H=820.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-1_0AWG-1kV-CA-1_0AWG-1kV-CA-1_0AWG-1kV-CA-336_4MCM Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=CA-1/0AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-1/0AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=CA-1/0AWG-1kV X=0.0 H=840.0 Units=cm 
+ ~ Cond=4 Wire=CA-336.4MCM X=0.0 H=820.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CAA-1_0AWG-CAA-1_0AWG-CAA-1_0AWG-CAA-1_0AWG Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=CAA-1/0AWG X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CAA-1/0AWG X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=CAA-1/0AWG X=0.0 H=840.0 Units=cm 
+ ~ Cond=4 Wire=CAA-1/0AWG X=0.0 H=820.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-Cu-1_0AWG-Cu-1_0AWG-Cu-1_0AWG-Cu-1_0AWG Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=Cu-1/0AWG X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=Cu-1/0AWG X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=Cu-1/0AWG X=0.0 H=840.0 Units=cm 
+ ~ Cond=4 Wire=Cu-1/0AWG X=0.0 H=820.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-Cu-1_0AWG-Cu-1_0AWG-Cu-1_0AWG-CA-1_0AWG-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=Cu-1/0AWG X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=Cu-1/0AWG X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=Cu-1/0AWG X=0.0 H=840.0 Units=cm 
+ ~ Cond=4 Wire=CA-1/0AWG-1kV X=0.0 H=820.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-1_0AWG-XLPE-1kV-CA-1_0AWG-XLPE-1kV-CA-1_0AWG-XLPE-1kV-CA-1_0AWG-XLPE-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=CA-1/0AWG-XLPE-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-1/0AWG-XLPE-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=CA-1/0AWG-XLPE-1kV X=0.0 H=840.0 Units=cm 
+ ~ Cond=4 Wire=CA-1/0AWG-XLPE-1kV X=0.0 H=820.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-Cu-1_0AWG-Cu-1_0AWG-Cu-1_0AWG-Cu-2_0AWG Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=Cu-1/0AWG X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=Cu-1/0AWG X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=Cu-1/0AWG X=0.0 H=840.0 Units=cm 
+ ~ Cond=4 Wire=Cu-2/0AWG X=0.0 H=820.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-Cu-1_0AWG-Cu-1_0AWG-Cu-1_0AWG-CA-2_0AWG-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=Cu-1/0AWG X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=Cu-1/0AWG X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=Cu-1/0AWG X=0.0 H=840.0 Units=cm 
+ ~ Cond=4 Wire=CA-2/0AWG-1kV X=0.0 H=820.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-1_0AWG-1kV-CA-1_0AWG-1kV-CA-1_0AWG-1kV-Cu-2_0AWG Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=CA-1/0AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-1/0AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=CA-1/0AWG-1kV X=0.0 H=840.0 Units=cm 
+ ~ Cond=4 Wire=Cu-2/0AWG X=0.0 H=820.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-Cu-1_0AWG-Cu-1_0AWG-Cu-1_0AWG-CA-4_0AWG-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=Cu-1/0AWG X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=Cu-1/0AWG X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=Cu-1/0AWG X=0.0 H=840.0 Units=cm 
+ ~ Cond=4 Wire=CA-4/0AWG-1kV X=0.0 H=820.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-1_0AWG-1kV-CA-1_0AWG-1kV-CA-1_0AWG-1kV-Cu-4_0AWG Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=CA-1/0AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-1/0AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=CA-1/0AWG-1kV X=0.0 H=840.0 Units=cm 
+ ~ Cond=4 Wire=Cu-4/0AWG X=0.0 H=820.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-Cu-1_0AWG-Cu-1_0AWG-Cu-1_0AWG-Cu-2AWG Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=Cu-1/0AWG X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=Cu-1/0AWG X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=Cu-1/0AWG X=0.0 H=840.0 Units=cm 
+ ~ Cond=4 Wire=Cu-2AWG X=0.0 H=820.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-Cu-1_0AWG-Cu-1_0AWG-Cu-1_0AWG-CA-2AWG-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=Cu-1/0AWG X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=Cu-1/0AWG X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=Cu-1/0AWG X=0.0 H=840.0 Units=cm 
+ ~ Cond=4 Wire=CA-2AWG-1kV X=0.0 H=820.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-1_0AWG-XLPE-1kV-CA-1_0AWG-XLPE-1kV-CA-1_0AWG-XLPE-1kV-CA-2AWG-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=CA-1/0AWG-XLPE-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-1/0AWG-XLPE-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=CA-1/0AWG-XLPE-1kV X=0.0 H=840.0 Units=cm 
+ ~ Cond=4 Wire=CA-2AWG-1kV X=0.0 H=820.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-Cu-1_0AWG-Cu-1_0AWG-Cu-1_0AWG-Cu-6AWG-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=Cu-1/0AWG X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=Cu-1/0AWG X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=Cu-1/0AWG X=0.0 H=840.0 Units=cm 
+ ~ Cond=4 Wire=Cu-6AWG-1kV X=0.0 H=820.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-1_0AWG-1kV-CA-1_0AWG-1kV-CA-1_0AWG-1kV-CA-477MCM Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=CA-1/0AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-1/0AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=CA-1/0AWG-1kV X=0.0 H=840.0 Units=cm 
+ ~ Cond=4 Wire=CA-477MCM X=0.0 H=820.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-Cu-2_0AWG-Cu-2_0AWG-Cu-2_0AWG-Cu-1_0AWG Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=Cu-2/0AWG X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=Cu-2/0AWG X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=Cu-2/0AWG X=0.0 H=840.0 Units=cm 
+ ~ Cond=4 Wire=Cu-1/0AWG X=0.0 H=820.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-Cu-2_0AWG-Cu-2_0AWG-Cu-2_0AWG-CA-1_0AWG-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=Cu-2/0AWG X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=Cu-2/0AWG X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=Cu-2/0AWG X=0.0 H=840.0 Units=cm 
+ ~ Cond=4 Wire=CA-1/0AWG-1kV X=0.0 H=820.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-2_0AWG-1kV-CA-2_0AWG-1kV-CA-2_0AWG-1kV-Cu-1_0AWG Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=CA-2/0AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-2/0AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=CA-2/0AWG-1kV X=0.0 H=840.0 Units=cm 
+ ~ Cond=4 Wire=Cu-1/0AWG X=0.0 H=820.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-2_0AWG-1kV-CA-2_0AWG-1kV-CA-2_0AWG-1kV-CA-1_0AWG-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=CA-2/0AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-2/0AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=CA-2/0AWG-1kV X=0.0 H=840.0 Units=cm 
+ ~ Cond=4 Wire=CA-1/0AWG-1kV X=0.0 H=820.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-Cu-2_0AWG-Cu-2_0AWG-Cu-2_0AWG-Cu-2_0AWG Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=Cu-2/0AWG X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=Cu-2/0AWG X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=Cu-2/0AWG X=0.0 H=840.0 Units=cm 
+ ~ Cond=4 Wire=Cu-2/0AWG X=0.0 H=820.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-2_0AWG-1kV-CA-2_0AWG-1kV-CA-2_0AWG-1kV-Cu-2_0AWG Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=CA-2/0AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-2/0AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=CA-2/0AWG-1kV X=0.0 H=840.0 Units=cm 
+ ~ Cond=4 Wire=Cu-2/0AWG X=0.0 H=820.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-2_0AWG-1kV-CA-2_0AWG-1kV-CA-2_0AWG-1kV-CA-2_0AWG-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=CA-2/0AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-2/0AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=CA-2/0AWG-1kV X=0.0 H=840.0 Units=cm 
+ ~ Cond=4 Wire=CA-2/0AWG-1kV X=0.0 H=820.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-2_0AWG-1kV-CA-2_0AWG-1kV-CA-2_0AWG-1kV-CA-4_0AWG-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=CA-2/0AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-2/0AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=CA-2/0AWG-1kV X=0.0 H=840.0 Units=cm 
+ ~ Cond=4 Wire=CA-4/0AWG-1kV X=0.0 H=820.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-Cu-2_0AWG-Cu-2_0AWG-Cu-2_0AWG-Cu-2AWG Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=Cu-2/0AWG X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=Cu-2/0AWG X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=Cu-2/0AWG X=0.0 H=840.0 Units=cm 
+ ~ Cond=4 Wire=Cu-2AWG X=0.0 H=820.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-2_0AWG-1kV-CA-2_0AWG-1kV-CA-2_0AWG-1kV-CA-2AWG-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=CA-2/0AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-2/0AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=CA-2/0AWG-1kV X=0.0 H=840.0 Units=cm 
+ ~ Cond=4 Wire=CA-2AWG-1kV X=0.0 H=820.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-2_0AWG-1kV-CA-2_0AWG-1kV-CA-2_0AWG-1kV-CA-4AWG-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=CA-2/0AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-2/0AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=CA-2/0AWG-1kV X=0.0 H=840.0 Units=cm 
+ ~ Cond=4 Wire=CA-4AWG-1kV X=0.0 H=820.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-Cu-2_0AWG-Cu-2_0AWG-Cu-2_0AWG-Cu-6AWG-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=Cu-2/0AWG X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=Cu-2/0AWG X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=Cu-2/0AWG X=0.0 H=840.0 Units=cm 
+ ~ Cond=4 Wire=Cu-6AWG-1kV X=0.0 H=820.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-Cu-4_0AWG-Cu-4_0AWG-Cu-4_0AWG-Cu-1_0AWG Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=Cu-4/0AWG X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=Cu-4/0AWG X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=Cu-4/0AWG X=0.0 H=840.0 Units=cm 
+ ~ Cond=4 Wire=Cu-1/0AWG X=0.0 H=820.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-4_0AWG-1kV-CA-4_0AWG-1kV-CA-4_0AWG-1kV-Cu-1_0AWG Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=CA-4/0AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-4/0AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=CA-4/0AWG-1kV X=0.0 H=840.0 Units=cm 
+ ~ Cond=4 Wire=Cu-1/0AWG X=0.0 H=820.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-4_0AWG-1kV-CA-4_0AWG-1kV-CA-4_0AWG-1kV-CA-1_0AWG-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=CA-4/0AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-4/0AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=CA-4/0AWG-1kV X=0.0 H=840.0 Units=cm 
+ ~ Cond=4 Wire=CA-1/0AWG-1kV X=0.0 H=820.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-4_0AWG-XLPE-1kV-CA-4_0AWG-XLPE-1kV-CA-4_0AWG-XLPE-1kV-CA-1_0AWG-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=CA-4/0AWG-XLPE-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-4/0AWG-XLPE-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=CA-4/0AWG-XLPE-1kV X=0.0 H=840.0 Units=cm 
+ ~ Cond=4 Wire=CA-1/0AWG-1kV X=0.0 H=820.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-4_0AWG-1kV-CA-4_0AWG-1kV-CA-4_0AWG-1kV-CA-2_0AWG-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=CA-4/0AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-4/0AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=CA-4/0AWG-1kV X=0.0 H=840.0 Units=cm 
+ ~ Cond=4 Wire=CA-2/0AWG-1kV X=0.0 H=820.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-Cu-4_0AWG-Cu-4_0AWG-Cu-4_0AWG-CA-4_0AWG-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=Cu-4/0AWG X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=Cu-4/0AWG X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=Cu-4/0AWG X=0.0 H=840.0 Units=cm 
+ ~ Cond=4 Wire=CA-4/0AWG-1kV X=0.0 H=820.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-4_0AWG-1kV-CA-4_0AWG-1kV-CA-4_0AWG-1kV-CA-4_0AWG-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=CA-4/0AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-4/0AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=CA-4/0AWG-1kV X=0.0 H=840.0 Units=cm 
+ ~ Cond=4 Wire=CA-4/0AWG-1kV X=0.0 H=820.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-4_0AWG-XLPE-1kV-CA-4_0AWG-XLPE-1kV-CA-4_0AWG-XLPE-1kV-CA-4_0AWG-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=CA-4/0AWG-XLPE-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-4/0AWG-XLPE-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=CA-4/0AWG-XLPE-1kV X=0.0 H=840.0 Units=cm 
+ ~ Cond=4 Wire=CA-4/0AWG-1kV X=0.0 H=820.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-4_0AWG-XLPE-1kV-CA-4_0AWG-XLPE-1kV-CA-4_0AWG-XLPE-1kV-CA-4_0AWG-XLPE-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=CA-4/0AWG-XLPE-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-4/0AWG-XLPE-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=CA-4/0AWG-XLPE-1kV X=0.0 H=840.0 Units=cm 
+ ~ Cond=4 Wire=CA-4/0AWG-XLPE-1kV X=0.0 H=820.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-4_0AWG-1kV-CA-4_0AWG-1kV-CA-4_0AWG-1kV-CA-2AWG-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=CA-4/0AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-4/0AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=CA-4/0AWG-1kV X=0.0 H=840.0 Units=cm 
+ ~ Cond=4 Wire=CA-2AWG-1kV X=0.0 H=820.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-4_0AWG-1kV-CA-4_0AWG-1kV-CA-4_0AWG-1kV-CA-336_4MCM Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=CA-4/0AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-4/0AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=CA-4/0AWG-1kV X=0.0 H=840.0 Units=cm 
+ ~ Cond=4 Wire=CA-336.4MCM X=0.0 H=820.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-2AWG-1kV-CA-2AWG-1kV-CA-2AWG-1kV-CA-2AWG-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=CA-2AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-2AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=CA-2AWG-1kV X=0.0 H=840.0 Units=cm 
+ ~ Cond=4 Wire=CA-2AWG-1kV X=0.0 H=820.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-Cu-2AWG-Cu-2AWG-Cu-2AWG-Cu-1_0AWG Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=Cu-2AWG X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=Cu-2AWG X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=Cu-2AWG X=0.0 H=840.0 Units=cm 
+ ~ Cond=4 Wire=Cu-1/0AWG X=0.0 H=820.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-2AWG-1kV-CA-2AWG-1kV-CA-2AWG-1kV-Cu-1_0AWG Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=CA-2AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-2AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=CA-2AWG-1kV X=0.0 H=840.0 Units=cm 
+ ~ Cond=4 Wire=Cu-1/0AWG X=0.0 H=820.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-2AWG-1kV-CA-2AWG-1kV-CA-2AWG-1kV-CA-1_0AWG-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=CA-2AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-2AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=CA-2AWG-1kV X=0.0 H=840.0 Units=cm 
+ ~ Cond=4 Wire=CA-1/0AWG-1kV X=0.0 H=820.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-Cu-2AWG-Cu-2AWG-Cu-2AWG-Cu-2_0AWG Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=Cu-2AWG X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=Cu-2AWG X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=Cu-2AWG X=0.0 H=840.0 Units=cm 
+ ~ Cond=4 Wire=Cu-2/0AWG X=0.0 H=820.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-Cu-2AWG-Cu-2AWG-Cu-2AWG-CA-2_0AWG-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=Cu-2AWG X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=Cu-2AWG X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=Cu-2AWG X=0.0 H=840.0 Units=cm 
+ ~ Cond=4 Wire=CA-2/0AWG-1kV X=0.0 H=820.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-2AWG-1kV-CA-2AWG-1kV-CA-2AWG-1kV-CA-2_0AWG-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=CA-2AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-2AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=CA-2AWG-1kV X=0.0 H=840.0 Units=cm 
+ ~ Cond=4 Wire=CA-2/0AWG-1kV X=0.0 H=820.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-Cu-2AWG-Cu-2AWG-Cu-2AWG-Cu-4_0AWG Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=Cu-2AWG X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=Cu-2AWG X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=Cu-2AWG X=0.0 H=840.0 Units=cm 
+ ~ Cond=4 Wire=Cu-4/0AWG X=0.0 H=820.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-Cu-2AWG-Cu-2AWG-Cu-2AWG-CA-4_0AWG-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=Cu-2AWG X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=Cu-2AWG X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=Cu-2AWG X=0.0 H=840.0 Units=cm 
+ ~ Cond=4 Wire=CA-4/0AWG-1kV X=0.0 H=820.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-2AWG-1kV-CA-2AWG-1kV-CA-2AWG-1kV-CA-4_0AWG-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=CA-2AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-2AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=CA-2AWG-1kV X=0.0 H=840.0 Units=cm 
+ ~ Cond=4 Wire=CA-4/0AWG-1kV X=0.0 H=820.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-Cu-2AWG-Cu-2AWG-Cu-2AWG-Cu-2AWG Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=Cu-2AWG X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=Cu-2AWG X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=Cu-2AWG X=0.0 H=840.0 Units=cm 
+ ~ Cond=4 Wire=Cu-2AWG X=0.0 H=820.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-Cu-2AWG-Cu-2AWG-Cu-2AWG-CA-2AWG-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=Cu-2AWG X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=Cu-2AWG X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=Cu-2AWG X=0.0 H=840.0 Units=cm 
+ ~ Cond=4 Wire=CA-2AWG-1kV X=0.0 H=820.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-2AWG-1kV-CA-2AWG-1kV-CA-2AWG-1kV-Cu-2AWG Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=CA-2AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-2AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=CA-2AWG-1kV X=0.0 H=840.0 Units=cm 
+ ~ Cond=4 Wire=Cu-2AWG X=0.0 H=820.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-Cu-2AWG-Cu-2AWG-Cu-2AWG-Cu-4AWG Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=Cu-2AWG X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=Cu-2AWG X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=Cu-2AWG X=0.0 H=840.0 Units=cm 
+ ~ Cond=4 Wire=Cu-4AWG X=0.0 H=820.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-2AWG-1kV-CA-2AWG-1kV-CA-2AWG-1kV-CA-4AWG-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=CA-2AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-2AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=CA-2AWG-1kV X=0.0 H=840.0 Units=cm 
+ ~ Cond=4 Wire=CA-4AWG-1kV X=0.0 H=820.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-Cu-2AWG-Cu-2AWG-Cu-2AWG-Cu-6AWG-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=Cu-2AWG X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=Cu-2AWG X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=Cu-2AWG X=0.0 H=840.0 Units=cm 
+ ~ Cond=4 Wire=Cu-6AWG-1kV X=0.0 H=820.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-2AWG-1kV-CA-2AWG-1kV-CA-2AWG-1kV-Cu-6AWG-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=CA-2AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-2AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=CA-2AWG-1kV X=0.0 H=840.0 Units=cm 
+ ~ Cond=4 Wire=Cu-6AWG-1kV X=0.0 H=820.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-2AWG-1kV-CA-2AWG-1kV-CA-2AWG-1kV-CA-336_4MCM Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=CA-2AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-2AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=CA-2AWG-1kV X=0.0 H=840.0 Units=cm 
+ ~ Cond=4 Wire=CA-336.4MCM X=0.0 H=820.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-Cu-2AWG-Cu-2AWG-Cu-2AWG-Cu-8AWG Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=Cu-2AWG X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=Cu-2AWG X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=Cu-2AWG X=0.0 H=840.0 Units=cm 
+ ~ Cond=4 Wire=Cu-8AWG X=0.0 H=820.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-Cu-4AWG-Cu-4AWG-Cu-4AWG-Cu-1_0AWG Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=Cu-4AWG X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=Cu-4AWG X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=Cu-4AWG X=0.0 H=840.0 Units=cm 
+ ~ Cond=4 Wire=Cu-1/0AWG X=0.0 H=820.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-4AWG-1kV-CA-4AWG-1kV-CA-4AWG-1kV-CA-1_0AWG-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=CA-4AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-4AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=CA-4AWG-1kV X=0.0 H=840.0 Units=cm 
+ ~ Cond=4 Wire=CA-1/0AWG-1kV X=0.0 H=820.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-Cu-4AWG-Cu-4AWG-Cu-4AWG-Cu-2AWG Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=Cu-4AWG X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=Cu-4AWG X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=Cu-4AWG X=0.0 H=840.0 Units=cm 
+ ~ Cond=4 Wire=Cu-2AWG X=0.0 H=820.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-Cu-4AWG-Cu-4AWG-Cu-4AWG-Cu-4AWG Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=Cu-4AWG X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=Cu-4AWG X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=Cu-4AWG X=0.0 H=840.0 Units=cm 
+ ~ Cond=4 Wire=Cu-4AWG X=0.0 H=820.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-4AWG-1kV-CA-4AWG-1kV-CA-4AWG-1kV-CA-4AWG-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=CA-4AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-4AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=CA-4AWG-1kV X=0.0 H=840.0 Units=cm 
+ ~ Cond=4 Wire=CA-4AWG-1kV X=0.0 H=820.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CAA-4AWG-CAA-4AWG-CAA-4AWG-CAA-4AWG Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=CAA-4AWG X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CAA-4AWG X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=CAA-4AWG X=0.0 H=840.0 Units=cm 
+ ~ Cond=4 Wire=CAA-4AWG X=0.0 H=820.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-Cu-4AWG-Cu-4AWG-Cu-4AWG-Cu-6AWG-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=Cu-4AWG X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=Cu-4AWG X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=Cu-4AWG X=0.0 H=840.0 Units=cm 
+ ~ Cond=4 Wire=Cu-6AWG-1kV X=0.0 H=820.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-Cu-4AWG-Cu-4AWG-Cu-4AWG-Cu-8AWG Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=Cu-4AWG X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=Cu-4AWG X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=Cu-4AWG X=0.0 H=840.0 Units=cm 
+ ~ Cond=4 Wire=Cu-8AWG X=0.0 H=820.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-Cu-6AWG-1kV-Cu-6AWG-1kV-Cu-6AWG-1kV-Cu-1_0AWG Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=Cu-6AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=Cu-6AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=Cu-6AWG-1kV X=0.0 H=840.0 Units=cm 
+ ~ Cond=4 Wire=Cu-1/0AWG X=0.0 H=820.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-Cu-6AWG-1kV-Cu-6AWG-1kV-Cu-6AWG-1kV-CA-1_0AWG-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=Cu-6AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=Cu-6AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=Cu-6AWG-1kV X=0.0 H=840.0 Units=cm 
+ ~ Cond=4 Wire=CA-1/0AWG-1kV X=0.0 H=820.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-Cu-6AWG-1kV-Cu-6AWG-1kV-Cu-6AWG-1kV-Cu-2_0AWG Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=Cu-6AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=Cu-6AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=Cu-6AWG-1kV X=0.0 H=840.0 Units=cm 
+ ~ Cond=4 Wire=Cu-2/0AWG X=0.0 H=820.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-Cu-6AWG-1kV-Cu-6AWG-1kV-Cu-6AWG-1kV-CA-2_0AWG-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=Cu-6AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=Cu-6AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=Cu-6AWG-1kV X=0.0 H=840.0 Units=cm 
+ ~ Cond=4 Wire=CA-2/0AWG-1kV X=0.0 H=820.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-Cu-6AWG-1kV-Cu-6AWG-1kV-Cu-6AWG-1kV-Cu-4_0AWG Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=Cu-6AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=Cu-6AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=Cu-6AWG-1kV X=0.0 H=840.0 Units=cm 
+ ~ Cond=4 Wire=Cu-4/0AWG X=0.0 H=820.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-Cu-6AWG-1kV-Cu-6AWG-1kV-Cu-6AWG-1kV-CA-4_0AWG-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=Cu-6AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=Cu-6AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=Cu-6AWG-1kV X=0.0 H=840.0 Units=cm 
+ ~ Cond=4 Wire=CA-4/0AWG-1kV X=0.0 H=820.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-Cu-6AWG-1kV-Cu-6AWG-1kV-Cu-6AWG-1kV-Cu-2AWG Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=Cu-6AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=Cu-6AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=Cu-6AWG-1kV X=0.0 H=840.0 Units=cm 
+ ~ Cond=4 Wire=Cu-2AWG X=0.0 H=820.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-Cu-6AWG-1kV-Cu-6AWG-1kV-Cu-6AWG-1kV-CA-2AWG-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=Cu-6AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=Cu-6AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=Cu-6AWG-1kV X=0.0 H=840.0 Units=cm 
+ ~ Cond=4 Wire=CA-2AWG-1kV X=0.0 H=820.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-Cu-6AWG-1kV-Cu-6AWG-1kV-Cu-6AWG-1kV-Cu-4AWG Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=Cu-6AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=Cu-6AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=Cu-6AWG-1kV X=0.0 H=840.0 Units=cm 
+ ~ Cond=4 Wire=Cu-4AWG X=0.0 H=820.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-Cu-6AWG-1kV-Cu-6AWG-1kV-Cu-6AWG-1kV-Cu-6AWG-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=Cu-6AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=Cu-6AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=Cu-6AWG-1kV X=0.0 H=840.0 Units=cm 
+ ~ Cond=4 Wire=Cu-6AWG-1kV X=0.0 H=820.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-Cu-6AWG-1kV-Cu-6AWG-1kV-Cu-6AWG-1kV-Cu-8AWG Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=Cu-6AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=Cu-6AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=Cu-6AWG-1kV X=0.0 H=840.0 Units=cm 
+ ~ Cond=4 Wire=Cu-8AWG X=0.0 H=820.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-Cu-8AWG-Cu-8AWG-Cu-8AWG-Cu-6AWG-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=Cu-8AWG X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=Cu-8AWG X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=Cu-8AWG X=0.0 H=840.0 Units=cm 
+ ~ Cond=4 Wire=Cu-6AWG-1kV X=0.0 H=820.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-Cu-8AWG-Cu-8AWG-Cu-8AWG-Cu-8AWG Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=Cu-8AWG X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=Cu-8AWG X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=Cu-8AWG X=0.0 H=840.0 Units=cm 
+ ~ Cond=4 Wire=Cu-8AWG X=0.0 H=820.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-10mm2-XLPE-1kV-CA-10mm2-XLPE-1kV-CA-10mm2-XLPE-1kV-CA-10mm2-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=CA-10mm2-XLPE-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-10mm2-XLPE-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=CA-10mm2-XLPE-1kV X=0.0 H=840.0 Units=cm 
+ ~ Cond=4 Wire=CA-10mm2-1kV X=0.0 H=820.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-35mm2-XLPE-1kV-CA-35mm2-XLPE-1kV-CA-35mm2-XLPE-1kV-CA-35mm2-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=CA-35mm2-XLPE-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-35mm2-XLPE-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=CA-35mm2-XLPE-1kV X=0.0 H=840.0 Units=cm 
+ ~ Cond=4 Wire=CA-35mm2-1kV X=0.0 H=820.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-QUADRUPLEX__3_Cu-2AWG__1_Cu-6AWG-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=Cu-2AWG X=0.0 H=900.60903 Units=cm 
+ ~ Cond=2 Wire=Cu-2AWG X=0.590475287327 H=900.149186045 Units=cm 
+ ~ Cond=3 Wire=Cu-2AWG X=0.289281883173 H=899.464058275 Units=cm 
+ ~ Cond=4 Wire=Cu-6AWG-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-QUADRUPLEX__4_Cu-6AWG-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=Cu-6AWG-1kV X=0.0 H=900.46965 Units=cm 
+ ~ Cond=2 Wire=Cu-6AWG-1kV X=0.406728830887 H=900.234825 Units=cm 
+ ~ Cond=3 Wire=Cu-6AWG-1kV X=0.406728830887 H=899.765175 Units=cm 
+ ~ Cond=4 Wire=Cu-6AWG-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-QUADRUPLEX__3_CA-16mm2-XLPE-1kV__1_CA-16mm2-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=CA-16mm2-XLPE-1kV X=0.0 H=900.65145 Units=cm 
+ ~ Cond=2 Wire=CA-16mm2-XLPE-1kV X=0.639345587916 H=900.124997287 Units=cm 
+ ~ Cond=3 Wire=CA-16mm2-XLPE-1kV X=0.245349493686 H=899.396517831 Units=cm 
+ ~ Cond=4 Wire=CA-16mm2-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-QUADRUPLEX__3_CA-25mm2-XLPE-1kV__1_CA-25mm2-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=CA-25mm2-XLPE-1kV X=0.0 H=900.77366 Units=cm 
+ ~ Cond=2 Wire=CA-25mm2-XLPE-1kV X=0.749679350576 H=900.191129974 Units=cm 
+ ~ Cond=3 Wire=CA-25mm2-XLPE-1kV X=0.370411278085 H=899.320775972 Units=cm 
+ ~ Cond=4 Wire=CA-25mm2-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-QUADRUPLEX__3_CA-35mm2-XLPE-1kV__1_CA-35mm2-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=CA-35mm2-XLPE-1kV X=0.0 H=900.882235 Units=cm 
+ ~ Cond=2 Wire=CA-35mm2-XLPE-1kV X=0.847579394635 H=900.244842327 Units=cm 
+ ~ Cond=3 Wire=CA-35mm2-XLPE-1kV X=0.47044905534 H=899.253664766 Units=cm 
+ ~ Cond=4 Wire=CA-35mm2-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-QUADRUPLEX__3_CA-120mm2-XLPE-1kV__1_CA-120mm2-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=CA-120mm2-XLPE-1kV X=0.0 H=901.5857 Units=cm 
+ ~ Cond=2 Wire=CA-120mm2-XLPE-1kV X=1.50976231944 H=900.484832166 Units=cm 
+ ~ Cond=3 Wire=CA-120mm2-XLPE-1kV X=0.923228019023 H=898.710777554 Units=cm 
+ ~ Cond=4 Wire=CA-120mm2-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-QUADRUPLEX__3_Cu-50mm2-XLPE-1kV__1_Cu-50mm2-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=Cu-50mm2-XLPE-1kV X=0.0 H=901.08575 Units=cm 
+ ~ Cond=2 Wire=Cu-50mm2-XLPE-1kV X=1.05235102561 H=900.267227209 Units=cm 
+ ~ Cond=3 Wire=Cu-50mm2-XLPE-1kV X=0.518013958611 H=899.045791112 Units=cm 
+ ~ Cond=4 Wire=Cu-50mm2-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-QUADRUPLEX__3_Cu-120mm2-XLPE-1kV__1_Cu-120mm2-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=Cu-120mm2-XLPE-1kV X=0.0 H=901.6362 Units=cm 
+ ~ Cond=2 Wire=Cu-120mm2-XLPE-1kV X=1.56203013708 H=900.487044444 Units=cm 
+ ~ Cond=3 Wire=Cu-120mm2-XLPE-1kV X=0.929932893678 H=898.653755129 Units=cm 
+ ~ Cond=4 Wire=Cu-120mm2-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-QUADRUPLEX__3_CA-1_0AWG-1kV__1_Cu-35mm2-XLPE-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=CA-1/0AWG-1kV X=0.0 H=901.02313 Units=cm 
+ ~ Cond=2 Wire=CA-1/0AWG-1kV X=0.838423722009 H=900.586379279 Units=cm 
+ ~ Cond=3 Wire=CA-1/0AWG-1kV X=0.961039746497 H=899.64900484 Units=cm 
+ ~ Cond=4 Wire=Cu-35mm2-XLPE-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-QUADRUPLEX__4_Cu-16mm2-XLPE-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=Cu-16mm2-XLPE-1kV X=0.0 H=900.8585 Units=cm 
+ ~ Cond=2 Wire=Cu-16mm2-XLPE-1kV X=0.743482809149 H=900.42925 Units=cm 
+ ~ Cond=3 Wire=Cu-16mm2-XLPE-1kV X=0.743482809149 H=899.57075 Units=cm 
+ ~ Cond=4 Wire=Cu-16mm2-XLPE-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-QUADRUPLEX__4_CA-16mm2-XLPE-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=CA-16mm2-XLPE-1kV X=0.0 H=900.8282 Units=cm 
+ ~ Cond=2 Wire=CA-16mm2-XLPE-1kV X=0.717242239414 H=900.4141 Units=cm 
+ ~ Cond=3 Wire=CA-16mm2-XLPE-1kV X=0.717242239414 H=899.5859 Units=cm 
+ ~ Cond=4 Wire=CA-16mm2-XLPE-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-QUADRUPLEX__3_Cu-35mm2-XLPE-1kV__1_Cu-35mm2-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=Cu-35mm2-XLPE-1kV X=0.0 H=900.91405 Units=cm 
+ ~ Cond=2 Wire=Cu-35mm2-XLPE-1kV X=0.878890042329 H=900.251077072 Units=cm 
+ ~ Cond=3 Wire=Cu-35mm2-XLPE-1kV X=0.482838221722 H=899.223884896 Units=cm 
+ ~ Cond=4 Wire=Cu-35mm2-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-QUADRUPLEX__4_Cu-35mm2-XLPE-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=Cu-35mm2-XLPE-1kV X=0.0 H=901.1009 Units=cm 
+ ~ Cond=2 Wire=Cu-35mm2-XLPE-1kV X=0.953407367026 H=900.55045 Units=cm 
+ ~ Cond=3 Wire=Cu-35mm2-XLPE-1kV X=0.953407367026 H=899.44955 Units=cm 
+ ~ Cond=4 Wire=Cu-35mm2-XLPE-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-QUADRUPLEX__4_Cu-70mm2-XLPE-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=Cu-70mm2-XLPE-1kV X=0.0 H=901.515 Units=cm 
+ ~ Cond=2 Wire=Cu-70mm2-XLPE-1kV X=1.31202848673 H=900.7575 Units=cm 
+ ~ Cond=3 Wire=Cu-70mm2-XLPE-1kV X=1.31202848673 H=899.2425 Units=cm 
+ ~ Cond=4 Wire=Cu-70mm2-XLPE-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-QUADRUPLEX__4_CA-95mm2-XLPE-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=CA-95mm2-XLPE-1kV X=0.0 H=901.616 Units=cm 
+ ~ Cond=2 Wire=CA-95mm2-XLPE-1kV X=1.39949705252 H=900.808 Units=cm 
+ ~ Cond=3 Wire=CA-95mm2-XLPE-1kV X=1.39949705252 H=899.192 Units=cm 
+ ~ Cond=4 Wire=CA-95mm2-XLPE-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-QUADRUPLEX__4_Cu-120mm2-XLPE-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=Cu-120mm2-XLPE-1kV X=0.0 H=901.9392 Units=cm 
+ ~ Cond=2 Wire=Cu-120mm2-XLPE-1kV X=1.67939646302 H=900.9696 Units=cm 
+ ~ Cond=3 Wire=Cu-120mm2-XLPE-1kV X=1.67939646302 H=899.0304 Units=cm 
+ ~ Cond=4 Wire=Cu-120mm2-XLPE-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-QUADRUPLEX__3_CA-185mm2-XLPE-1kV__1_CA-185mm2-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=CA-185mm2-XLPE-1kV X=0.0 H=901.89476 Units=cm 
+ ~ Cond=2 Wire=CA-185mm2-XLPE-1kV X=1.77962239549 H=900.650430309 Units=cm 
+ ~ Cond=3 Wire=CA-185mm2-XLPE-1kV X=1.22181209747 H=898.55179744 Units=cm 
+ ~ Cond=4 Wire=CA-185mm2-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-QUADRUPLEX__4_CA-185mm2-XLPE-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=CA-185mm2-XLPE-1kV X=0.0 H=902.1715 Units=cm 
+ ~ Cond=2 Wire=CA-185mm2-XLPE-1kV X=1.88057416432 H=901.08575 Units=cm 
+ ~ Cond=3 Wire=CA-185mm2-XLPE-1kV X=1.88057416432 H=898.91425 Units=cm 
+ ~ Cond=4 Wire=CA-185mm2-XLPE-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-QUADRUPLEX__4_Cu-240mm2-XLPE-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=Cu-240mm2-XLPE-1kV X=0.0 H=902.6866 Units=cm 
+ ~ Cond=2 Wire=Cu-240mm2-XLPE-1kV X=2.32666384981 H=901.3433 Units=cm 
+ ~ Cond=3 Wire=Cu-240mm2-XLPE-1kV X=2.32666384981 H=898.6567 Units=cm 
+ ~ Cond=4 Wire=Cu-240mm2-XLPE-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-1_0AWG-1kV-CA-1_0AWG-1kV-Cu-1_0AWG Nconds=3 
+ ~ Cond=1 Wire=CA-1/0AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-1/0AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=Cu-1/0AWG X=0.0 H=840.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-1_0AWG-1kV-CA-1_0AWG-1kV-CA-1_0AWG-XLPE-1kV Nconds=3 
+ ~ Cond=1 Wire=CA-1/0AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-1/0AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=CA-1/0AWG-XLPE-1kV X=0.0 H=840.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-1_0AWG-1kV-CA-1_0AWG-1kV-CA-2_0AWG-1kV Nconds=3 
+ ~ Cond=1 Wire=CA-1/0AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-1/0AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=CA-2/0AWG-1kV X=0.0 H=840.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-1_0AWG-1kV-CA-1_0AWG-1kV-CA-4_0AWG-1kV Nconds=3 
+ ~ Cond=1 Wire=CA-1/0AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-1/0AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=CA-4/0AWG-1kV X=0.0 H=840.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-1_0AWG-1kV-CA-1_0AWG-1kV-Cu-2AWG Nconds=3 
+ ~ Cond=1 Wire=CA-1/0AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-1/0AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=Cu-2AWG X=0.0 H=840.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-1_0AWG-1kV-CA-1_0AWG-1kV-CA-2AWG-1kV Nconds=3 
+ ~ Cond=1 Wire=CA-1/0AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-1/0AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=CA-2AWG-1kV X=0.0 H=840.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-1_0AWG-1kV-CA-1_0AWG-1kV-Cu-6AWG-1kV Nconds=3 
+ ~ Cond=1 Wire=CA-1/0AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-1/0AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=Cu-6AWG-1kV X=0.0 H=840.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-1_0AWG-1kV-CA-1_0AWG-1kV-CA-477MCM Nconds=3 
+ ~ Cond=1 Wire=CA-1/0AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-1/0AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=CA-477MCM X=0.0 H=840.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-Cu-1_0AWG-Cu-1_0AWG-Cu-1_0AWG Nconds=3 
+ ~ Cond=1 Wire=Cu-1/0AWG X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=Cu-1/0AWG X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=Cu-1/0AWG X=0.0 H=840.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-1_0AWG-1kV-CA-1_0AWG-1kV-Cu-2_0AWG Nconds=3 
+ ~ Cond=1 Wire=CA-1/0AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-1/0AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=Cu-2/0AWG X=0.0 H=840.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-1_0AWG-XLPE-1kV-CA-1_0AWG-XLPE-1kV-CA-2AWG-XLPE-1kV Nconds=3 
+ ~ Cond=1 Wire=CA-1/0AWG-XLPE-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-1/0AWG-XLPE-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=CA-2AWG-XLPE-1kV X=0.0 H=840.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-Cu-1_0AWG-Cu-1_0AWG-Cu-6AWG-1kV Nconds=3 
+ ~ Cond=1 Wire=Cu-1/0AWG X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=Cu-1/0AWG X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=Cu-6AWG-1kV X=0.0 H=840.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-2_0AWG-1kV-CA-2_0AWG-1kV-CA-1_0AWG-1kV Nconds=3 
+ ~ Cond=1 Wire=CA-2/0AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-2/0AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=CA-1/0AWG-1kV X=0.0 H=840.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-2_0AWG-1kV-CA-2_0AWG-1kV-CA-2_0AWG-1kV Nconds=3 
+ ~ Cond=1 Wire=CA-2/0AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-2/0AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=CA-2/0AWG-1kV X=0.0 H=840.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-2_0AWG-1kV-CA-2_0AWG-1kV-CA-4_0AWG-1kV Nconds=3 
+ ~ Cond=1 Wire=CA-2/0AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-2/0AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=CA-4/0AWG-1kV X=0.0 H=840.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-2_0AWG-1kV-CA-2_0AWG-1kV-CA-2AWG-1kV Nconds=3 
+ ~ Cond=1 Wire=CA-2/0AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-2/0AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=CA-2AWG-1kV X=0.0 H=840.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-4_0AWG-1kV-CA-4_0AWG-1kV-CA-1_0AWG-1kV Nconds=3 
+ ~ Cond=1 Wire=CA-4/0AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-4/0AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=CA-1/0AWG-1kV X=0.0 H=840.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-4_0AWG-1kV-CA-4_0AWG-1kV-CA-2_0AWG-1kV Nconds=3 
+ ~ Cond=1 Wire=CA-4/0AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-4/0AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=CA-2/0AWG-1kV X=0.0 H=840.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-4_0AWG-1kV-CA-4_0AWG-1kV-CA-4_0AWG-1kV Nconds=3 
+ ~ Cond=1 Wire=CA-4/0AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-4/0AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=CA-4/0AWG-1kV X=0.0 H=840.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-4_0AWG-1kV-CA-4_0AWG-1kV-CA-2AWG-1kV Nconds=3 
+ ~ Cond=1 Wire=CA-4/0AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-4/0AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=CA-2AWG-1kV X=0.0 H=840.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-Cu-2AWG-Cu-2AWG-Cu-1_0AWG Nconds=3 
+ ~ Cond=1 Wire=Cu-2AWG X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=Cu-2AWG X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=Cu-1/0AWG X=0.0 H=840.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-Cu-2AWG-Cu-2AWG-CA-1_0AWG-1kV Nconds=3 
+ ~ Cond=1 Wire=Cu-2AWG X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=Cu-2AWG X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=CA-1/0AWG-1kV X=0.0 H=840.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-2AWG-1kV-CA-2AWG-1kV-CA-1_0AWG-1kV Nconds=3 
+ ~ Cond=1 Wire=CA-2AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-2AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=CA-1/0AWG-1kV X=0.0 H=840.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-Cu-2AWG-Cu-2AWG-Cu-2_0AWG Nconds=3 
+ ~ Cond=1 Wire=Cu-2AWG X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=Cu-2AWG X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=Cu-2/0AWG X=0.0 H=840.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-Cu-2AWG-Cu-2AWG-CA-2_0AWG-1kV Nconds=3 
+ ~ Cond=1 Wire=Cu-2AWG X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=Cu-2AWG X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=CA-2/0AWG-1kV X=0.0 H=840.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-2AWG-1kV-CA-2AWG-1kV-CA-2_0AWG-1kV Nconds=3 
+ ~ Cond=1 Wire=CA-2AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-2AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=CA-2/0AWG-1kV X=0.0 H=840.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-Cu-2AWG-Cu-2AWG-Cu-4_0AWG Nconds=3 
+ ~ Cond=1 Wire=Cu-2AWG X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=Cu-2AWG X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=Cu-4/0AWG X=0.0 H=840.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-2AWG-1kV-CA-2AWG-1kV-CA-4_0AWG-1kV Nconds=3 
+ ~ Cond=1 Wire=CA-2AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-2AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=CA-4/0AWG-1kV X=0.0 H=840.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-Cu-2AWG-Cu-2AWG-Cu-2AWG Nconds=3 
+ ~ Cond=1 Wire=Cu-2AWG X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=Cu-2AWG X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=Cu-2AWG X=0.0 H=840.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-Cu-2AWG-Cu-2AWG-Cu-4AWG Nconds=3 
+ ~ Cond=1 Wire=Cu-2AWG X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=Cu-2AWG X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=Cu-4AWG X=0.0 H=840.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-2AWG-1kV-CA-2AWG-1kV-CA-4AWG-1kV Nconds=3 
+ ~ Cond=1 Wire=CA-2AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-2AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=CA-4AWG-1kV X=0.0 H=840.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-Cu-2AWG-Cu-2AWG-Cu-6AWG-1kV Nconds=3 
+ ~ Cond=1 Wire=Cu-2AWG X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=Cu-2AWG X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=Cu-6AWG-1kV X=0.0 H=840.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-4AWG-1kV-CA-4AWG-1kV-CA-4AWG-1kV Nconds=3 
+ ~ Cond=1 Wire=CA-4AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-4AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=CA-4AWG-1kV X=0.0 H=840.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-Cu-6AWG-1kV-Cu-6AWG-1kV-Cu-1_0AWG Nconds=3 
+ ~ Cond=1 Wire=Cu-6AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=Cu-6AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=Cu-1/0AWG X=0.0 H=840.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-Cu-6AWG-1kV-Cu-6AWG-1kV-CA-1_0AWG-1kV Nconds=3 
+ ~ Cond=1 Wire=Cu-6AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=Cu-6AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=CA-1/0AWG-1kV X=0.0 H=840.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-Cu-6AWG-1kV-Cu-6AWG-1kV-Cu-2_0AWG Nconds=3 
+ ~ Cond=1 Wire=Cu-6AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=Cu-6AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=Cu-2/0AWG X=0.0 H=840.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-Cu-6AWG-1kV-Cu-6AWG-1kV-Cu-4_0AWG Nconds=3 
+ ~ Cond=1 Wire=Cu-6AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=Cu-6AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=Cu-4/0AWG X=0.0 H=840.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-Cu-6AWG-1kV-Cu-6AWG-1kV-CA-4_0AWG-1kV Nconds=3 
+ ~ Cond=1 Wire=Cu-6AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=Cu-6AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=CA-4/0AWG-1kV X=0.0 H=840.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-Cu-6AWG-1kV-Cu-6AWG-1kV-Cu-2AWG Nconds=3 
+ ~ Cond=1 Wire=Cu-6AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=Cu-6AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=Cu-2AWG X=0.0 H=840.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-Cu-6AWG-1kV-Cu-6AWG-1kV-CA-2AWG-1kV Nconds=3 
+ ~ Cond=1 Wire=Cu-6AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=Cu-6AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=CA-2AWG-1kV X=0.0 H=840.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-Cu-8AWG-Cu-8AWG-Cu-8AWG Nconds=3 
+ ~ Cond=1 Wire=Cu-8AWG X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=Cu-8AWG X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=Cu-8AWG X=0.0 H=840.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-10mm2-XLPE-1kV-CA-10mm2-XLPE-1kV-CA-10mm2-1kV Nconds=3 
+ ~ Cond=1 Wire=CA-10mm2-XLPE-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-10mm2-XLPE-1kV X=0.0 H=860.0 Units=cm 
+ ~ Cond=3 Wire=CA-10mm2-1kV X=0.0 H=840.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-TRIPLEX__3_CA-1_0AWG-1kV Nconds=3 
+ ~ Cond=1 Wire=CA-1/0AWG-1kV X=0.0 H=900.94536 Units=cm 
+ ~ Cond=2 Wire=CA-1/0AWG-1kV X=0.818705775722 H=900.47268 Units=cm 
+ ~ Cond=3 Wire=CA-1/0AWG-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-TRIPLEX__2_CA-4AWG-XLPE-1kV__1_CA-4AWG-1kV Nconds=3 
+ ~ Cond=1 Wire=CA-4AWG-XLPE-1kV X=0.0 H=900.77063 Units=cm 
+ ~ Cond=2 Wire=CA-4AWG-XLPE-1kV X=0.74727197181 H=900.188295505 Units=cm 
+ ~ Cond=3 Wire=CA-4AWG-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-TRIPLEX__2_CA-16mm2-XLPE-1kV__1_CA-16mm2-1kV Nconds=3 
+ ~ Cond=1 Wire=CA-16mm2-XLPE-1kV X=0.0 H=900.65145 Units=cm 
+ ~ Cond=2 Wire=CA-16mm2-XLPE-1kV X=0.639345587916 H=900.124997287 Units=cm 
+ ~ Cond=3 Wire=CA-16mm2-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-TRIPLEX__2_CA-70mm2-XLPE-1kV__1_CA-70mm2-1kV Nconds=3 
+ ~ Cond=1 Wire=CA-70mm2-XLPE-1kV X=0.0 H=901.224625 Units=cm 
+ ~ Cond=2 Wire=CA-70mm2-XLPE-1kV X=1.1738586224 H=900.348944588 Units=cm 
+ ~ Cond=3 Wire=CA-70mm2-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-TRIPLEX__2_CA-25mm2-XLPE-1kV__1_CA-25mm2-1kV Nconds=3 
+ ~ Cond=1 Wire=CA-25mm2-XLPE-1kV X=0.0 H=900.77366 Units=cm 
+ ~ Cond=2 Wire=CA-25mm2-XLPE-1kV X=0.749679350576 H=900.191129974 Units=cm 
+ ~ Cond=3 Wire=CA-25mm2-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-TRIPLEX__2_CA-35mm2-XLPE-1kV__1_CA-35mm2-1kV Nconds=3 
+ ~ Cond=1 Wire=CA-35mm2-XLPE-1kV X=0.0 H=900.882235 Units=cm 
+ ~ Cond=2 Wire=CA-35mm2-XLPE-1kV X=0.847579394635 H=900.244842327 Units=cm 
+ ~ Cond=3 Wire=CA-35mm2-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-TRIPLEX__2_CA-50mm2-XLPE-1kV__1_CA-50mm2-1kV Nconds=3 
+ ~ Cond=1 Wire=CA-50mm2-XLPE-1kV X=0.0 H=901.040805 Units=cm 
+ ~ Cond=2 Wire=CA-50mm2-XLPE-1kV X=1.00379126584 H=900.275096606 Units=cm 
+ ~ Cond=3 Wire=CA-50mm2-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-TRIPLEX__2_CA-120mm2-XLPE-1kV__1_CA-120mm2-1kV Nconds=3 
+ ~ Cond=1 Wire=CA-120mm2-XLPE-1kV X=0.0 H=901.5857 Units=cm 
+ ~ Cond=2 Wire=CA-120mm2-XLPE-1kV X=1.50976231944 H=900.484832166 Units=cm 
+ ~ Cond=3 Wire=CA-120mm2-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-TRIPLEX__3_Cu-16mm2-XLPE-1kV Nconds=3 
+ ~ Cond=1 Wire=Cu-16mm2-XLPE-1kV X=0.0 H=900.8585 Units=cm 
+ ~ Cond=2 Wire=Cu-16mm2-XLPE-1kV X=0.743482809149 H=900.42925 Units=cm 
+ ~ Cond=3 Wire=Cu-16mm2-XLPE-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-TRIPLEX__3_Cu-35mm2-XLPE-1kV Nconds=3 
+ ~ Cond=1 Wire=Cu-35mm2-XLPE-1kV X=0.0 H=901.1009 Units=cm 
+ ~ Cond=2 Wire=Cu-35mm2-XLPE-1kV X=0.953407367026 H=900.55045 Units=cm 
+ ~ Cond=3 Wire=Cu-35mm2-XLPE-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-TRIPLEX__3_Cu-70mm2-XLPE-1kV Nconds=3 
+ ~ Cond=1 Wire=Cu-70mm2-XLPE-1kV X=0.0 H=901.515 Units=cm 
+ ~ Cond=2 Wire=Cu-70mm2-XLPE-1kV X=1.31202848673 H=900.7575 Units=cm 
+ ~ Cond=3 Wire=Cu-70mm2-XLPE-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-TRIPLEX__3_CA-95mm2-XLPE-1kV Nconds=3 
+ ~ Cond=1 Wire=CA-95mm2-XLPE-1kV X=0.0 H=901.616 Units=cm 
+ ~ Cond=2 Wire=CA-95mm2-XLPE-1kV X=1.39949705252 H=900.808 Units=cm 
+ ~ Cond=3 Wire=CA-95mm2-XLPE-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-TRIPLEX__2_CA-10mm2-XLPE-1kV__1_CA-10mm2-1kV Nconds=3 
+ ~ Cond=1 Wire=CA-10mm2-XLPE-1kV X=0.0 H=900.583275 Units=cm 
+ ~ Cond=2 Wire=CA-10mm2-XLPE-1kV X=0.576070524611 H=900.091391883 Units=cm 
+ ~ Cond=3 Wire=CA-10mm2-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-DUPLEX__1_CA-1_0AWG-XLPE-1kV__1_CA-2AWG-1kV Nconds=2 Nphases=2 
+ ~ Cond=1 Wire=CA-1/0AWG-XLPE-1kV X=0.0 H=901.043835 Units=cm 
+ ~ Cond=2 Wire=CA-2AWG-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-1_0AWG-1kV-CA-2_0AWG-1kV Nconds=2 Nphases=2 
+ ~ Cond=1 Wire=CA-1/0AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-2/0AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-1_0AWG-1kV-CA-4_0AWG-1kV Nconds=2 Nphases=2 
+ ~ Cond=1 Wire=CA-1/0AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-4/0AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-1_0AWG-1kV-Cu-2AWG Nconds=2 Nphases=2 
+ ~ Cond=1 Wire=CA-1/0AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=Cu-2AWG X=0.0 H=860.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-1_0AWG-1kV-CA-2AWG-1kV Nconds=2 Nphases=2 
+ ~ Cond=1 Wire=CA-1/0AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-2AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-1_0AWG-1kV-Cu-6AWG-1kV Nconds=2 Nphases=2 
+ ~ Cond=1 Wire=CA-1/0AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=Cu-6AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-Cu-1_0AWG-Cu-1_0AWG Nconds=2 Nphases=2 
+ ~ Cond=1 Wire=Cu-1/0AWG X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=Cu-1/0AWG X=0.0 H=860.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-1_0AWG-1kV-Cu-1_0AWG Nconds=2 Nphases=2 
+ ~ Cond=1 Wire=CA-1/0AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=Cu-1/0AWG X=0.0 H=860.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-Cu-1_0AWG-Cu-6AWG-1kV Nconds=2 Nphases=2 
+ ~ Cond=1 Wire=Cu-1/0AWG X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=Cu-6AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-2_0AWG-1kV-CA-1_0AWG-1kV Nconds=2 Nphases=2 
+ ~ Cond=1 Wire=CA-2/0AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-1/0AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-2_0AWG-1kV-CA-2_0AWG-1kV Nconds=2 Nphases=2 
+ ~ Cond=1 Wire=CA-2/0AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-2/0AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-2_0AWG-1kV-CA-2AWG-1kV Nconds=2 Nphases=2 
+ ~ Cond=1 Wire=CA-2/0AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-2AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-Cu-4_0AWG-CA-1_0AWG-1kV Nconds=2 Nphases=2 
+ ~ Cond=1 Wire=Cu-4/0AWG X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-1/0AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-Cu-4_0AWG-CA-4_0AWG-1kV Nconds=2 Nphases=2 
+ ~ Cond=1 Wire=Cu-4/0AWG X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-4/0AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-Cu-4_0AWG-CA-2AWG-1kV Nconds=2 Nphases=2 
+ ~ Cond=1 Wire=Cu-4/0AWG X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-2AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-Cu-2AWG-Cu-1_0AWG Nconds=2 Nphases=2 
+ ~ Cond=1 Wire=Cu-2AWG X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=Cu-1/0AWG X=0.0 H=860.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-Cu-2AWG-CA-1_0AWG-1kV Nconds=2 Nphases=2 
+ ~ Cond=1 Wire=Cu-2AWG X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-1/0AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-2AWG-1kV-CA-1_0AWG-1kV Nconds=2 Nphases=2 
+ ~ Cond=1 Wire=CA-2AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-1/0AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-Cu-2AWG-Cu-2_0AWG Nconds=2 Nphases=2 
+ ~ Cond=1 Wire=Cu-2AWG X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=Cu-2/0AWG X=0.0 H=860.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-2AWG-1kV-CA-2_0AWG-1kV Nconds=2 Nphases=2 
+ ~ Cond=1 Wire=CA-2AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-2/0AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-Cu-2AWG-Cu-4_0AWG Nconds=2 Nphases=2 
+ ~ Cond=1 Wire=Cu-2AWG X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=Cu-4/0AWG X=0.0 H=860.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-2AWG-1kV-CA-4_0AWG-1kV Nconds=2 Nphases=2 
+ ~ Cond=1 Wire=CA-2AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-4/0AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-Cu-2AWG-Cu-2AWG Nconds=2 Nphases=2 
+ ~ Cond=1 Wire=Cu-2AWG X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=Cu-2AWG X=0.0 H=860.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-2AWG-1kV-CA-2AWG-1kV Nconds=2 Nphases=2 
+ ~ Cond=1 Wire=CA-2AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-2AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-Cu-2AWG-Cu-6AWG-1kV Nconds=2 Nphases=2 
+ ~ Cond=1 Wire=Cu-2AWG X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=Cu-6AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-Cu-2AWG-Cu-8AWG Nconds=2 Nphases=2 
+ ~ Cond=1 Wire=Cu-2AWG X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=Cu-8AWG X=0.0 H=860.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-4AWG-1kV-CA-4AWG-1kV Nconds=2 Nphases=2 
+ ~ Cond=1 Wire=CA-4AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-4AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-Cu-6AWG-1kV-Cu-1_0AWG Nconds=2 Nphases=2 
+ ~ Cond=1 Wire=Cu-6AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=Cu-1/0AWG X=0.0 H=860.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-Cu-6AWG-1kV-CA-1_0AWG-1kV Nconds=2 Nphases=2 
+ ~ Cond=1 Wire=Cu-6AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-1/0AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-Cu-6AWG-1kV-Cu-2_0AWG Nconds=2 Nphases=2 
+ ~ Cond=1 Wire=Cu-6AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=Cu-2/0AWG X=0.0 H=860.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-Cu-6AWG-1kV-Cu-4_0AWG Nconds=2 Nphases=2 
+ ~ Cond=1 Wire=Cu-6AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=Cu-4/0AWG X=0.0 H=860.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-Cu-6AWG-1kV-Cu-2AWG Nconds=2 Nphases=2 
+ ~ Cond=1 Wire=Cu-6AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=Cu-2AWG X=0.0 H=860.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-Cu-6AWG-1kV-Cu-6AWG-1kV Nconds=2 Nphases=2 
+ ~ Cond=1 Wire=Cu-6AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=Cu-6AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-10mm2-XLPE-1kV-CA-10mm2-1kV Nconds=2 Nphases=2 
+ ~ Cond=1 Wire=CA-10mm2-XLPE-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-10mm2-1kV X=0.0 H=860.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-DUPLEX__1_CA-10mm2-XLPE-1kV__1_CA-10mm2-1kV Nconds=2 Nphases=2 
+ ~ Cond=1 Wire=CA-10mm2-XLPE-1kV X=0.0 H=900.583275 Units=cm 
+ ~ Cond=2 Wire=CA-10mm2-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-DUPLEX__1_CA-16mm2-XLPE-1kV__1_CA-16mm2-1kV Nconds=2 Nphases=2 
+ ~ Cond=1 Wire=CA-16mm2-XLPE-1kV X=0.0 H=900.65145 Units=cm 
+ ~ Cond=2 Wire=CA-16mm2-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-DUPLEX__1_CA-25mm2-XLPE-1kV__1_CA-25mm2-1kV Nconds=2 Nphases=2 
+ ~ Cond=1 Wire=CA-25mm2-XLPE-1kV X=0.0 H=900.77366 Units=cm 
+ ~ Cond=2 Wire=CA-25mm2-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-DUPLEX__1_CA-35mm2-XLPE-1kV__1_CA-35mm2-1kV Nconds=2 Nphases=2 
+ ~ Cond=1 Wire=CA-35mm2-XLPE-1kV X=0.0 H=900.882235 Units=cm 
+ ~ Cond=2 Wire=CA-35mm2-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-DUPLEX__1_CA-50mm2-XLPE-1kV__1_CA-50mm2-1kV Nconds=2 Nphases=2 
+ ~ Cond=1 Wire=CA-50mm2-XLPE-1kV X=0.0 H=901.040805 Units=cm 
+ ~ Cond=2 Wire=CA-50mm2-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-DUPLEX__1_CA-70mm2-XLPE-1kV__1_CA-70mm2-1kV Nconds=2 Nphases=2 
+ ~ Cond=1 Wire=CA-70mm2-XLPE-1kV X=0.0 H=901.224625 Units=cm 
+ ~ Cond=2 Wire=CA-70mm2-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-DUPLEX__1_CA-120mm2-XLPE-1kV__1_CA-120mm2-1kV Nconds=2 Nphases=2 
+ ~ Cond=1 Wire=CA-120mm2-XLPE-1kV X=0.0 H=901.5857 Units=cm 
+ ~ Cond=2 Wire=CA-120mm2-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-DUPLEX__1_CA-1_0AWG-1kV__1_Cu-35mm2-XLPE-1kV Nconds=2 Nphases=2 
+ ~ Cond=1 Wire=CA-1/0AWG-1kV X=0.0 H=901.02313 Units=cm 
+ ~ Cond=2 Wire=Cu-35mm2-XLPE-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-DUPLEX__1_Cu-16mm2-XLPE-1kV__1_Cu-16mm2-1kV Nconds=2 Nphases=2 
+ ~ Cond=1 Wire=Cu-16mm2-XLPE-1kV X=0.0 H=900.6767 Units=cm 
+ ~ Cond=2 Wire=Cu-16mm2-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-DUPLEX__2_Cu-16mm2-XLPE-1kV Nconds=2 Nphases=2 
+ ~ Cond=1 Wire=Cu-16mm2-XLPE-1kV X=0.0 H=900.8585 Units=cm 
+ ~ Cond=2 Wire=Cu-16mm2-XLPE-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-DUPLEX__2_CA-16mm2-XLPE-1kV Nconds=2 Nphases=2 
+ ~ Cond=1 Wire=CA-16mm2-XLPE-1kV X=0.0 H=900.8282 Units=cm 
+ ~ Cond=2 Wire=CA-16mm2-XLPE-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-DUPLEX__1_Cu-25mm2-XLPE-1kV__1_Cu-16mm2-XLPE-1kV Nconds=2 Nphases=2 
+ ~ Cond=1 Wire=Cu-25mm2-XLPE-1kV X=0.0 H=900.92415 Units=cm 
+ ~ Cond=2 Wire=Cu-16mm2-XLPE-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-DUPLEX__1_Cu-35mm2-XLPE-1kV__1_Cu-35mm2-1kV Nconds=2 Nphases=2 
+ ~ Cond=1 Wire=Cu-35mm2-XLPE-1kV X=0.0 H=900.91405 Units=cm 
+ ~ Cond=2 Wire=Cu-35mm2-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-DUPLEX__2_Cu-35mm2-XLPE-1kV Nconds=2 Nphases=2 
+ ~ Cond=1 Wire=Cu-35mm2-XLPE-1kV X=0.0 H=901.1009 Units=cm 
+ ~ Cond=2 Wire=Cu-35mm2-XLPE-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-DUPLEX__2_Cu-70mm2-XLPE-1kV Nconds=2 Nphases=2 
+ ~ Cond=1 Wire=Cu-70mm2-XLPE-1kV X=0.0 H=901.515 Units=cm 
+ ~ Cond=2 Wire=Cu-70mm2-XLPE-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-DUPLEX__1_CA-95mm2-XLPE-1kV__1_CA-95mm2-1kV Nconds=2 Nphases=2 
+ ~ Cond=1 Wire=CA-95mm2-XLPE-1kV X=0.0 H=901.387235 Units=cm 
+ ~ Cond=2 Wire=CA-95mm2-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-DUPLEX__2_CA-95mm2-XLPE-1kV Nconds=2 Nphases=2 
+ ~ Cond=1 Wire=CA-95mm2-XLPE-1kV X=0.0 H=901.616 Units=cm 
+ ~ Cond=2 Wire=CA-95mm2-XLPE-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-DUPLEX__2_Cu-120mm2-XLPE-1kV Nconds=2 Nphases=2 
+ ~ Cond=1 Wire=Cu-120mm2-XLPE-1kV X=0.0 H=901.9392 Units=cm 
+ ~ Cond=2 Wire=Cu-120mm2-XLPE-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-DUPLEX__1_CA-185mm2-XLPE-1kV__1_CA-185mm2-1kV Nconds=2 Nphases=2 
+ ~ Cond=1 Wire=CA-185mm2-XLPE-1kV X=0.0 H=901.89476 Units=cm 
+ ~ Cond=2 Wire=CA-185mm2-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-DUPLEX__2_CA-185mm2-XLPE-1kV Nconds=2 Nphases=2 
+ ~ Cond=1 Wire=CA-185mm2-XLPE-1kV X=0.0 H=902.1715 Units=cm 
+ ~ Cond=2 Wire=CA-185mm2-XLPE-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-DUPLEX__2_Cu-240mm2-XLPE-1kV Nconds=2 Nphases=2 
+ ~ Cond=1 Wire=Cu-240mm2-XLPE-1kV X=0.0 H=902.6866 Units=cm 
+ ~ Cond=2 Wire=Cu-240mm2-XLPE-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.SEC-Tradicional-CA-4_0AWG-1kV-CA-1_0AWG-1kV Nconds=2 Nphases=2 
+ ~ Cond=1 Wire=CA-4/0AWG-1kV X=0.0 H=880.0 Units=cm 
+ ~ Cond=2 Wire=CA-1/0AWG-1kV X=0.0 H=860.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.TAP-QUADRUPLEX__4_CA-16mm2-XLPE-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=CA-16mm2-XLPE-1kV X=0.0 H=900.8282 Units=cm 
+ ~ Cond=2 Wire=CA-16mm2-XLPE-1kV X=0.717242239414 H=900.4141 Units=cm 
+ ~ Cond=3 Wire=CA-16mm2-XLPE-1kV X=0.717242239414 H=899.5859 Units=cm 
+ ~ Cond=4 Wire=CA-16mm2-XLPE-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.TAP-QUADRUPLEX__4_Cu-16mm2-XLPE-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=Cu-16mm2-XLPE-1kV X=0.0 H=900.8585 Units=cm 
+ ~ Cond=2 Wire=Cu-16mm2-XLPE-1kV X=0.743482809149 H=900.42925 Units=cm 
+ ~ Cond=3 Wire=Cu-16mm2-XLPE-1kV X=0.743482809149 H=899.57075 Units=cm 
+ ~ Cond=4 Wire=Cu-16mm2-XLPE-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.TAP-QUADRUPLEX__4_Cu-25mm2-XLPE-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=Cu-25mm2-XLPE-1kV X=0.0 H=900.9898 Units=cm 
+ ~ Cond=2 Wire=Cu-25mm2-XLPE-1kV X=0.857191944666 H=900.4949 Units=cm 
+ ~ Cond=3 Wire=Cu-25mm2-XLPE-1kV X=0.857191944666 H=899.5051 Units=cm 
+ ~ Cond=4 Wire=Cu-25mm2-XLPE-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.TAP-QUADRUPLEX__4_Cu-35mm2-XLPE-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=Cu-35mm2-XLPE-1kV X=0.0 H=901.1009 Units=cm 
+ ~ Cond=2 Wire=Cu-35mm2-XLPE-1kV X=0.953407367026 H=900.55045 Units=cm 
+ ~ Cond=3 Wire=Cu-35mm2-XLPE-1kV X=0.953407367026 H=899.44955 Units=cm 
+ ~ Cond=4 Wire=Cu-35mm2-XLPE-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.TAP-QUADRUPLEX__4_Cu-50mm2-XLPE-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=Cu-50mm2-XLPE-1kV X=0.0 H=901.3332 Units=cm 
+ ~ Cond=2 Wire=Cu-50mm2-XLPE-1kV X=1.15458506833 H=900.6666 Units=cm 
+ ~ Cond=3 Wire=Cu-50mm2-XLPE-1kV X=1.15458506833 H=899.3334 Units=cm 
+ ~ Cond=4 Wire=Cu-50mm2-XLPE-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.TAP-QUADRUPLEX__4_Cu-70mm2-XLPE-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=Cu-70mm2-XLPE-1kV X=0.0 H=901.515 Units=cm 
+ ~ Cond=2 Wire=Cu-70mm2-XLPE-1kV X=1.31202848673 H=900.7575 Units=cm 
+ ~ Cond=3 Wire=Cu-70mm2-XLPE-1kV X=1.31202848673 H=899.2425 Units=cm 
+ ~ Cond=4 Wire=Cu-70mm2-XLPE-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.TAP-QUADRUPLEX__4_CA-95mm2-XLPE-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=CA-95mm2-XLPE-1kV X=0.0 H=901.616 Units=cm 
+ ~ Cond=2 Wire=CA-95mm2-XLPE-1kV X=1.39949705252 H=900.808 Units=cm 
+ ~ Cond=3 Wire=CA-95mm2-XLPE-1kV X=1.39949705252 H=899.192 Units=cm 
+ ~ Cond=4 Wire=CA-95mm2-XLPE-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.TAP-QUADRUPLEX__4_Cu-120mm2-XLPE-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=Cu-120mm2-XLPE-1kV X=0.0 H=901.9392 Units=cm 
+ ~ Cond=2 Wire=Cu-120mm2-XLPE-1kV X=1.67939646302 H=900.9696 Units=cm 
+ ~ Cond=3 Wire=Cu-120mm2-XLPE-1kV X=1.67939646302 H=899.0304 Units=cm 
+ ~ Cond=4 Wire=Cu-120mm2-XLPE-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.TAP-TRIPLEX__3_CA-10mm2-XLPE-1kV Nconds=3 
+ ~ Cond=1 Wire=CA-10mm2-XLPE-1kV X=0.0 H=900.7575 Units=cm 
+ ~ Cond=2 Wire=CA-10mm2-XLPE-1kV X=0.656014243367 H=900.37875 Units=cm 
+ ~ Cond=3 Wire=CA-10mm2-XLPE-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.TAP-TRIPLEX__3_CA-16mm2-XLPE-1kV Nconds=3 
+ ~ Cond=1 Wire=CA-16mm2-XLPE-1kV X=0.0 H=900.8282 Units=cm 
+ ~ Cond=2 Wire=CA-16mm2-XLPE-1kV X=0.717242239414 H=900.4141 Units=cm 
+ ~ Cond=3 Wire=CA-16mm2-XLPE-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.TAP-QUADRUPLEX__4_Cu-1_0AWG Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=Cu-1/0AWG X=0.0 H=900.94536 Units=cm 
+ ~ Cond=2 Wire=Cu-1/0AWG X=0.818705775722 H=900.47268 Units=cm 
+ ~ Cond=3 Wire=Cu-1/0AWG X=0.818705775722 H=899.52732 Units=cm 
+ ~ Cond=4 Wire=Cu-1/0AWG X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.TAP-QUADRUPLEX__4_CA-1_0AWG-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=CA-1/0AWG-1kV X=0.0 H=900.94536 Units=cm 
+ ~ Cond=2 Wire=CA-1/0AWG-1kV X=0.818705775722 H=900.47268 Units=cm 
+ ~ Cond=3 Wire=CA-1/0AWG-1kV X=0.818705775722 H=899.52732 Units=cm 
+ ~ Cond=4 Wire=CA-1/0AWG-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.TAP-QUADRUPLEX__4_CA-1_0AWG-XLPE-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=CA-1/0AWG-XLPE-1kV X=0.0 H=901.33926 Units=cm 
+ ~ Cond=2 Wire=CA-1/0AWG-XLPE-1kV X=1.15983318227 H=900.66963 Units=cm 
+ ~ Cond=3 Wire=CA-1/0AWG-XLPE-1kV X=1.15983318227 H=899.33037 Units=cm 
+ ~ Cond=4 Wire=CA-1/0AWG-XLPE-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.TAP-QUADRUPLEX__4_CA-2_0AWG-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=CA-2/0AWG-1kV X=0.0 H=901.0605 Units=cm 
+ ~ Cond=2 Wire=CA-2/0AWG-1kV X=0.918419940713 H=900.53025 Units=cm 
+ ~ Cond=3 Wire=CA-2/0AWG-1kV X=0.918419940713 H=899.46975 Units=cm 
+ ~ Cond=4 Wire=CA-2/0AWG-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.TAP-QUADRUPLEX__4_CA-2AWG-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=CA-2AWG-1kV X=0.0 H=900.74841 Units=cm 
+ ~ Cond=2 Wire=CA-2AWG-1kV X=0.648142072446 H=900.374205 Units=cm 
+ ~ Cond=3 Wire=CA-2AWG-1kV X=0.648142072446 H=899.625795 Units=cm 
+ ~ Cond=4 Wire=CA-2AWG-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.TAP-QUADRUPLEX__4_CA-6mm2-XLPE-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=CA-6mm2-XLPE-1kV X=0.0 H=900.63933 Units=cm 
+ ~ Cond=2 Wire=CA-6mm2-XLPE-1kV X=0.553676021402 H=900.319665 Units=cm 
+ ~ Cond=3 Wire=CA-6mm2-XLPE-1kV X=0.553676021402 H=899.680335 Units=cm 
+ ~ Cond=4 Wire=CA-6mm2-XLPE-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.TAP-QUADRUPLEX__4_CA-7_5mm2-XLPE-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=CA-7.5mm2-XLPE-1kV X=0.0 H=900.6767 Units=cm 
+ ~ Cond=2 Wire=CA-7.5mm2-XLPE-1kV X=0.586039390741 H=900.33835 Units=cm 
+ ~ Cond=3 Wire=CA-7.5mm2-XLPE-1kV X=0.586039390741 H=899.66165 Units=cm 
+ ~ Cond=4 Wire=CA-7.5mm2-XLPE-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.TAP-QUADRUPLEX__4_Cu-10mm2-XLPE-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=Cu-10mm2-XLPE-1kV X=0.0 H=900.7575 Units=cm 
+ ~ Cond=2 Wire=Cu-10mm2-XLPE-1kV X=0.656014243367 H=900.37875 Units=cm 
+ ~ Cond=3 Wire=Cu-10mm2-XLPE-1kV X=0.656014243367 H=899.62125 Units=cm 
+ ~ Cond=4 Wire=Cu-10mm2-XLPE-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.TAP-QUADRUPLEX__4_CA-10mm2-XLPE-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=CA-10mm2-XLPE-1kV X=0.0 H=900.7575 Units=cm 
+ ~ Cond=2 Wire=CA-10mm2-XLPE-1kV X=0.656014243367 H=900.37875 Units=cm 
+ ~ Cond=3 Wire=CA-10mm2-XLPE-1kV X=0.656014243367 H=899.62125 Units=cm 
+ ~ Cond=4 Wire=CA-10mm2-XLPE-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.TAP-QUADRUPLEX__4_CA-25mm2-XLPE-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=CA-25mm2-XLPE-1kV X=0.0 H=900.9494 Units=cm 
+ ~ Cond=2 Wire=CA-25mm2-XLPE-1kV X=0.822204518353 H=900.4747 Units=cm 
+ ~ Cond=3 Wire=CA-25mm2-XLPE-1kV X=0.822204518353 H=899.5253 Units=cm 
+ ~ Cond=4 Wire=CA-25mm2-XLPE-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.TAP-QUADRUPLEX__4_CA-35mm2-XLPE-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=CA-35mm2-XLPE-1kV X=0.0 H=901.0605 Units=cm 
+ ~ Cond=2 Wire=CA-35mm2-XLPE-1kV X=0.918419940713 H=900.53025 Units=cm 
+ ~ Cond=3 Wire=CA-35mm2-XLPE-1kV X=0.918419940713 H=899.46975 Units=cm 
+ ~ Cond=4 Wire=CA-35mm2-XLPE-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.TAP-QUADRUPLEX__4_CA-50mm2-XLPE-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=CA-50mm2-XLPE-1kV X=0.0 H=901.2625 Units=cm 
+ ~ Cond=2 Wire=CA-50mm2-XLPE-1kV X=1.09335707228 H=900.63125 Units=cm 
+ ~ Cond=3 Wire=CA-50mm2-XLPE-1kV X=1.09335707228 H=899.36875 Units=cm 
+ ~ Cond=4 Wire=CA-50mm2-XLPE-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.TAP-QUADRUPLEX__4_CA-70mm2-XLPE-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=CA-70mm2-XLPE-1kV X=0.0 H=901.4645 Units=cm 
+ ~ Cond=2 Wire=CA-70mm2-XLPE-1kV X=1.26829420384 H=900.73225 Units=cm 
+ ~ Cond=3 Wire=CA-70mm2-XLPE-1kV X=1.26829420384 H=899.26775 Units=cm 
+ ~ Cond=4 Wire=CA-70mm2-XLPE-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.TAP-QUADRUPLEX__4_Cu-95mm2-XLPE-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=Cu-95mm2-XLPE-1kV X=0.0 H=901.717 Units=cm 
+ ~ Cond=2 Wire=Cu-95mm2-XLPE-1kV X=1.4869656183 H=900.8585 Units=cm 
+ ~ Cond=3 Wire=Cu-95mm2-XLPE-1kV X=1.4869656183 H=899.1415 Units=cm 
+ ~ Cond=4 Wire=Cu-95mm2-XLPE-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.TAP-QUADRUPLEX__4_CA-120mm2-XLPE-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=CA-120mm2-XLPE-1kV X=0.0 H=901.8685 Units=cm 
+ ~ Cond=2 Wire=CA-120mm2-XLPE-1kV X=1.61816846697 H=900.93425 Units=cm 
+ ~ Cond=3 Wire=CA-120mm2-XLPE-1kV X=1.61816846697 H=899.06575 Units=cm 
+ ~ Cond=4 Wire=CA-120mm2-XLPE-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.TAP-QUADRUPLEX__4_Cu-150mm2-XLPE-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=Cu-150mm2-XLPE-1kV X=0.0 H=902.2422 Units=cm 
+ ~ Cond=2 Wire=Cu-150mm2-XLPE-1kV X=1.94180216037 H=901.1211 Units=cm 
+ ~ Cond=3 Wire=Cu-150mm2-XLPE-1kV X=1.94180216037 H=898.8789 Units=cm 
+ ~ Cond=4 Wire=Cu-150mm2-XLPE-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.TAP-QUADRUPLEX__4_Cu-185mm2-XLPE-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=Cu-185mm2-XLPE-1kV X=0.0 H=902.424 Units=cm 
+ ~ Cond=2 Wire=Cu-185mm2-XLPE-1kV X=2.09924557877 H=901.212 Units=cm 
+ ~ Cond=3 Wire=Cu-185mm2-XLPE-1kV X=2.09924557877 H=898.788 Units=cm 
+ ~ Cond=4 Wire=Cu-185mm2-XLPE-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.TAP-QUADRUPLEX__4_CA-185mm2-XLPE-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=CA-185mm2-XLPE-1kV X=0.0 H=902.1715 Units=cm 
+ ~ Cond=2 Wire=CA-185mm2-XLPE-1kV X=1.88057416432 H=901.08575 Units=cm 
+ ~ Cond=3 Wire=CA-185mm2-XLPE-1kV X=1.88057416432 H=898.91425 Units=cm 
+ ~ Cond=4 Wire=CA-185mm2-XLPE-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.TAP-QUADRUPLEX__4_Cu-240mm2-XLPE-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=Cu-240mm2-XLPE-1kV X=0.0 H=902.6866 Units=cm 
+ ~ Cond=2 Wire=Cu-240mm2-XLPE-1kV X=2.32666384981 H=901.3433 Units=cm 
+ ~ Cond=3 Wire=Cu-240mm2-XLPE-1kV X=2.32666384981 H=898.6567 Units=cm 
+ ~ Cond=4 Wire=Cu-240mm2-XLPE-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.TAP-QUADRUPLEX__4_Cu-6AWG-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=Cu-6AWG-1kV X=0.0 H=900.46965 Units=cm 
+ ~ Cond=2 Wire=Cu-6AWG-1kV X=0.406728830887 H=900.234825 Units=cm 
+ ~ Cond=3 Wire=Cu-6AWG-1kV X=0.406728830887 H=899.765175 Units=cm 
+ ~ Cond=4 Wire=Cu-6AWG-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.TAP-QUADRUPLEX__4_CA-6AWG-XLPE-1kV Nconds=4 Nphases=3 
+ ~ Cond=1 Wire=CA-6AWG-XLPE-1kV X=0.0 H=900.82315 Units=cm 
+ ~ Cond=2 Wire=CA-6AWG-XLPE-1kV X=0.712868811125 H=900.411575 Units=cm 
+ ~ Cond=3 Wire=CA-6AWG-XLPE-1kV X=0.712868811125 H=899.588425 Units=cm 
+ ~ Cond=4 Wire=CA-6AWG-XLPE-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.TAP-TRIPLEX__3_Cu-1_0AWG Nconds=3 
+ ~ Cond=1 Wire=Cu-1/0AWG X=0.0 H=900.94536 Units=cm 
+ ~ Cond=2 Wire=Cu-1/0AWG X=0.818705775722 H=900.47268 Units=cm 
+ ~ Cond=3 Wire=Cu-1/0AWG X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.TAP-TRIPLEX__3_CA-1_0AWG-1kV Nconds=3 
+ ~ Cond=1 Wire=CA-1/0AWG-1kV X=0.0 H=900.94536 Units=cm 
+ ~ Cond=2 Wire=CA-1/0AWG-1kV X=0.818705775722 H=900.47268 Units=cm 
+ ~ Cond=3 Wire=CA-1/0AWG-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.TAP-TRIPLEX__3_CA-2_0AWG-1kV Nconds=3 
+ ~ Cond=1 Wire=CA-2/0AWG-1kV X=0.0 H=901.0605 Units=cm 
+ ~ Cond=2 Wire=CA-2/0AWG-1kV X=0.918419940713 H=900.53025 Units=cm 
+ ~ Cond=3 Wire=CA-2/0AWG-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.TAP-TRIPLEX__3_CA-2AWG-1kV Nconds=3 
+ ~ Cond=1 Wire=CA-2AWG-1kV X=0.0 H=900.74841 Units=cm 
+ ~ Cond=2 Wire=CA-2AWG-1kV X=0.648142072446 H=900.374205 Units=cm 
+ ~ Cond=3 Wire=CA-2AWG-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.TAP-TRIPLEX__3_Cu-10mm2-XLPE-1kV Nconds=3 
+ ~ Cond=1 Wire=Cu-10mm2-XLPE-1kV X=0.0 H=900.7575 Units=cm 
+ ~ Cond=2 Wire=Cu-10mm2-XLPE-1kV X=0.656014243367 H=900.37875 Units=cm 
+ ~ Cond=3 Wire=Cu-10mm2-XLPE-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.TAP-TRIPLEX__3_Cu-16mm2-XLPE-1kV Nconds=3 
+ ~ Cond=1 Wire=Cu-16mm2-XLPE-1kV X=0.0 H=900.8585 Units=cm 
+ ~ Cond=2 Wire=Cu-16mm2-XLPE-1kV X=0.743482809149 H=900.42925 Units=cm 
+ ~ Cond=3 Wire=Cu-16mm2-XLPE-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.TAP-TRIPLEX__3_CA-25mm2-XLPE-1kV Nconds=3 
+ ~ Cond=1 Wire=CA-25mm2-XLPE-1kV X=0.0 H=900.9494 Units=cm 
+ ~ Cond=2 Wire=CA-25mm2-XLPE-1kV X=0.822204518353 H=900.4747 Units=cm 
+ ~ Cond=3 Wire=CA-25mm2-XLPE-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.TAP-TRIPLEX__3_Cu-35mm2-XLPE-1kV Nconds=3 
+ ~ Cond=1 Wire=Cu-35mm2-XLPE-1kV X=0.0 H=901.1009 Units=cm 
+ ~ Cond=2 Wire=Cu-35mm2-XLPE-1kV X=0.953407367026 H=900.55045 Units=cm 
+ ~ Cond=3 Wire=Cu-35mm2-XLPE-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.TAP-TRIPLEX__3_CA-35mm2-XLPE-1kV Nconds=3 
+ ~ Cond=1 Wire=CA-35mm2-XLPE-1kV X=0.0 H=901.0605 Units=cm 
+ ~ Cond=2 Wire=CA-35mm2-XLPE-1kV X=0.918419940713 H=900.53025 Units=cm 
+ ~ Cond=3 Wire=CA-35mm2-XLPE-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.TAP-TRIPLEX__3_CA-4AWG-1kV Nconds=3 
+ ~ Cond=1 Wire=CA-4AWG-1kV X=0.0 H=900.59388 Units=cm 
+ ~ Cond=2 Wire=CA-4AWG-1kV X=0.5143151668 H=900.29694 Units=cm 
+ ~ Cond=3 Wire=CA-4AWG-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.TAP-TRIPLEX__3_CA-50mm2-XLPE-1kV Nconds=3 
+ ~ Cond=1 Wire=CA-50mm2-XLPE-1kV X=0.0 H=901.2625 Units=cm 
+ ~ Cond=2 Wire=CA-50mm2-XLPE-1kV X=1.09335707228 H=900.63125 Units=cm 
+ ~ Cond=3 Wire=CA-50mm2-XLPE-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.TAP-TRIPLEX__3_CA-70mm2-XLPE-1kV Nconds=3 
+ ~ Cond=1 Wire=CA-70mm2-XLPE-1kV X=0.0 H=901.4645 Units=cm 
+ ~ Cond=2 Wire=CA-70mm2-XLPE-1kV X=1.26829420384 H=900.73225 Units=cm 
+ ~ Cond=3 Wire=CA-70mm2-XLPE-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.TAP-TRIPLEX__3_CA-120mm2-XLPE-1kV Nconds=3 
+ ~ Cond=1 Wire=CA-120mm2-XLPE-1kV X=0.0 H=901.8685 Units=cm 
+ ~ Cond=2 Wire=CA-120mm2-XLPE-1kV X=1.61816846697 H=900.93425 Units=cm 
+ ~ Cond=3 Wire=CA-120mm2-XLPE-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.TAP-TRIPLEX__3_Cu-6AWG-1kV Nconds=3 
+ ~ Cond=1 Wire=Cu-6AWG-1kV X=0.0 H=900.46965 Units=cm 
+ ~ Cond=2 Wire=Cu-6AWG-1kV X=0.406728830887 H=900.234825 Units=cm 
+ ~ Cond=3 Wire=Cu-6AWG-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.TAP-TRIPLEX__3_CA-4_0AWG-1kV Nconds=3 
+ ~ Cond=1 Wire=CA-4/0AWG-1kV X=0.0 H=901.33926 Units=cm 
+ ~ Cond=2 Wire=CA-4/0AWG-1kV X=1.15983318227 H=900.66963 Units=cm 
+ ~ Cond=3 Wire=CA-4/0AWG-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.TAP-TRIPLEX__3_Cu-70mm2-XLPE-1kV Nconds=3 
+ ~ Cond=1 Wire=Cu-70mm2-XLPE-1kV X=0.0 H=901.515 Units=cm 
+ ~ Cond=2 Wire=Cu-70mm2-XLPE-1kV X=1.31202848673 H=900.7575 Units=cm 
+ ~ Cond=3 Wire=Cu-70mm2-XLPE-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.TAP-DUPLEX__2_CA-16mm2-XLPE-1kV Nconds=2 Nphases=2 
+ ~ Cond=1 Wire=CA-16mm2-XLPE-1kV X=0.0 H=900.8282 Units=cm 
+ ~ Cond=2 Wire=CA-16mm2-XLPE-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.TAP-DUPLEX__2_Cu-1_0AWG Nconds=2 Nphases=2 
+ ~ Cond=1 Wire=Cu-1/0AWG X=0.0 H=900.94536 Units=cm 
+ ~ Cond=2 Wire=Cu-1/0AWG X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.TAP-DUPLEX__2_CA-1_0AWG-1kV Nconds=2 Nphases=2 
+ ~ Cond=1 Wire=CA-1/0AWG-1kV X=0.0 H=900.94536 Units=cm 
+ ~ Cond=2 Wire=CA-1/0AWG-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.TAP-DUPLEX__2_Cu-2AWG Nconds=2 Nphases=2 
+ ~ Cond=1 Wire=Cu-2AWG X=0.0 H=900.74841 Units=cm 
+ ~ Cond=2 Wire=Cu-2AWG X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.TAP-DUPLEX__2_CA-2AWG-1kV Nconds=2 Nphases=2 
+ ~ Cond=1 Wire=CA-2AWG-1kV X=0.0 H=900.74841 Units=cm 
+ ~ Cond=2 Wire=CA-2AWG-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.TAP-DUPLEX__2_Cu-10mm2-XLPE-1kV Nconds=2 Nphases=2 
+ ~ Cond=1 Wire=Cu-10mm2-XLPE-1kV X=0.0 H=900.7575 Units=cm 
+ ~ Cond=2 Wire=Cu-10mm2-XLPE-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.TAP-DUPLEX__2_CA-10mm2-XLPE-1kV Nconds=2 Nphases=2 
+ ~ Cond=1 Wire=CA-10mm2-XLPE-1kV X=0.0 H=900.7575 Units=cm 
+ ~ Cond=2 Wire=CA-10mm2-XLPE-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.TAP-DUPLEX__2_Cu-16mm2-XLPE-1kV Nconds=2 Nphases=2 
+ ~ Cond=1 Wire=Cu-16mm2-XLPE-1kV X=0.0 H=900.8585 Units=cm 
+ ~ Cond=2 Wire=Cu-16mm2-XLPE-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.TAP-DUPLEX__2_CA-25mm2-XLPE-1kV Nconds=2 Nphases=2 
+ ~ Cond=1 Wire=CA-25mm2-XLPE-1kV X=0.0 H=900.9494 Units=cm 
+ ~ Cond=2 Wire=CA-25mm2-XLPE-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.TAP-DUPLEX__2_Cu-35mm2-XLPE-1kV Nconds=2 Nphases=2 
+ ~ Cond=1 Wire=Cu-35mm2-XLPE-1kV X=0.0 H=901.1009 Units=cm 
+ ~ Cond=2 Wire=Cu-35mm2-XLPE-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.TAP-DUPLEX__2_CA-35mm2-XLPE-1kV Nconds=2 Nphases=2 
+ ~ Cond=1 Wire=CA-35mm2-XLPE-1kV X=0.0 H=901.0605 Units=cm 
+ ~ Cond=2 Wire=CA-35mm2-XLPE-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.TAP-DUPLEX__2_CA-50mm2-XLPE-1kV Nconds=2 Nphases=2 
+ ~ Cond=1 Wire=CA-50mm2-XLPE-1kV X=0.0 H=901.2625 Units=cm 
+ ~ Cond=2 Wire=CA-50mm2-XLPE-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.TAP-DUPLEX__2_Cu-70mm2-XLPE-1kV Nconds=2 Nphases=2 
+ ~ Cond=1 Wire=Cu-70mm2-XLPE-1kV X=0.0 H=901.515 Units=cm 
+ ~ Cond=2 Wire=Cu-70mm2-XLPE-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.TAP-DUPLEX__2_CA-70mm2-XLPE-1kV Nconds=2 Nphases=2 
+ ~ Cond=1 Wire=CA-70mm2-XLPE-1kV X=0.0 H=901.4645 Units=cm 
+ ~ Cond=2 Wire=CA-70mm2-XLPE-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.TAP-DUPLEX__2_Cu-6AWG-1kV Nconds=2 Nphases=2 
+ ~ Cond=1 Wire=Cu-6AWG-1kV X=0.0 H=900.46965 Units=cm 
+ ~ Cond=2 Wire=Cu-6AWG-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.TAP-DUPLEX__2_CA-6mm2-XLPE-1kV Nconds=2 Nphases=2 
+ ~ Cond=1 Wire=CA-6mm2-XLPE-1kV X=0.0 H=900.63933 Units=cm 
+ ~ Cond=2 Wire=CA-6mm2-XLPE-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y
+New LineGeometry.TAP-DUPLEX__2_Cu-6AWG-XLPE-1kV Nconds=2 Nphases=2 
+ ~ Cond=1 Wire=Cu-6AWG-XLPE-1kV X=0.0 H=901.37865 Units=cm 
+ ~ Cond=2 Wire=Cu-6AWG-XLPE-1kV X=0.0 H=900.0 Units=cm 
+ ~  Reduce=y

@@ -1,0 +1,32 @@
+// P-T curve is per unit of rated Pmpp vs temperature
+// This one is for a Pmpp stated at 25 deg
+
+New XYCurve.MyPvsT npts=4 xarray=[0 25 75 100] yarray=[1.2 1.0 0.8 0.6]  !interpolated linearly between defined points - max power point
+
+// efficiency curve is per unit eff vs per unit power
+
+New XYCurve.MyEff npts=4 xarray=[.1 .2 .4 1.0] yarray=[.86 .9 .93 .97] ! temperature and efficiency (interpolated lineary between defined points)
+
+// per unit irradiance curve (per unit if "irradiance" property)
+
+!New Loadshape.MyIrrad npts=24 interval=1 mult=[0 0 0 0 0 0 .1 .2 .3 .5 .8 .9 1.0 1.0 .99 .9 .7 .4 .1 0 0 0 0 0]
+
+New Loadshape.1_Irrad npts=24 interval=1 mult=[0 0 0 0 0 0 .1 .2 .3 .5 .8 .9 1.0 1.0 .99 .9 .7 .4 .1 0 0 0 0 0]
+
+New Loadshape.2_Irrad npts=24 interval=1 mult=[0 0 0 0 0 0 .08 .16 .24 .4 .64 .72 0.8 0.8 .792 .72 .56 .32 .08 0 0 0 0 0]  
+
+New Loadshape.3_Irrad npts=24 interval=1 mult=[0 0 0 0 0 0 .06 .12 .18 .3 .48 .54 0.6 0.6 .594 .54 .42 .24 .06 0 0 0 0 0]
+
+New Loadshape.4_Irrad npts=72 minterval=15 mult=[0 0 0 0 0 0 .1 .2 .3 .5 .8 .9 1.0 1.0 .99 .9 .7 .4 .1 0 0 0 0 0 0 0 0 0 0 0 .08 .16 .24 .4 .64 .72 0.8 0.8 .792 .72 .56 .32 .08 0 0 0 0 0 0 0 0 0 0 0 .06 .12 .18 .3 .48 .54 0.6 0.6 .594 .54 .42 .24 .06 0 0 0 0 0]
+
+// 24-hr temp shape curve 
+
+New Tshape.MyTemp npts=24 interval=1 temp=[25, 25, 25, 25, 25, 25, 25, 25, 35, 40, 45, 50 60 60 55 40 35 30 25 25 25 25 25 25] !temperature during 24h
+
+New Tshape.1_Temp npts=24 interval=1 temp=[25.7 25.7 25.7 25.7 25.7 25.7 25.7 25.7 35.98 41.12 46.26 48.3 51.4 51.4 49.3 41.12 35.98 30.84 25.7 25.7 25.7 25.7 25.7 25.7]
+
+New Tshape.2_Temp npts=24 interval=1 temp=[21.7 21.7 21.7 21.7 21.7 21.7 21.7 21.7 30.38 34.72 39.06 40.8 43.4 43.4 41.7 34.72 30.38 26.04 21.7 21.7 21.7 21.7 21.7 21.7]
+
+New Tshape.3_Temp npts=24 interval=1 temp=[20.2 20.2 20.2 20.2 20.2 20.2 20.2 20.2 28.28 32.32 36.36 37.9 40.4 40.4 38.8 32.32 28.28 24.24 20.2 20.2 20.2 20.2 20.2 20.2]
+
+New Tshape.3_Temp npts=72 interval=1 temp=[25.7 25.7 25.7 25.7 25.7 25.7 25.7 25.7 35.98 41.12 46.26 48.3 51.4 51.4 49.3 41.12 35.98 30.84 25.7 25.7 25.7 25.7 25.7 25.7 21.7 21.7 21.7 21.7 21.7 21.7 21.7 21.7 30.38 34.72 39.06 40.8 43.4 43.4 41.7 34.72 30.38 26.04 21.7 21.7 21.7 21.7 21.7 21.7 20.2 20.2 20.2 20.2 20.2 20.2 20.2 20.2 28.28 32.32 36.36 37.9 40.4 40.4 38.8 32.32 28.28 24.24 20.2 20.2 20.2 20.2 20.2 20.2]
